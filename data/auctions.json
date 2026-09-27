@@ -1,0 +1,30 @@
+[
+  {
+    "id": "mstc:MSTC/NRO/The Oriental Insurance Co Ltd/1/VISAKHAPATNAM/26-27/27434-1.0",
+    "source": "mstc",
+    "auctionId": "MSTC/NRO/The Oriental Insurance Co Ltd/1/VISAKHAPATNAM/26-27/27434-1.0",
+    "bankName": "The Oriental Insurance Co Ltd",
+    "propertyType": "RESIDENTIAL/ Flat",
+    "city": "Visakhapatnam",
+    "district": "Anantapur",
+    "state": "Andhra Pradesh",
+    "reservePrice": 3310650.0,
+    "auctionDate": "2026-10-06",
+    "detailUrl": "https://www.mstcecommerce.com/auctionhome/propsearch/property_search.jsp",
+    "scrapedAt": "2026-09-27T06:32:23+00:00"
+  },
+  {
+    "id": "mstc:MSTC/NRO/The Oriental Insurance Co Ltd/1/VISAKHAPATNAM/26-27/27434-2.0",
+    "source": "mstc",
+    "auctionId": "MSTC/NRO/The Oriental Insurance Co Ltd/1/VISAKHAPATNAM/26-27/27434-2.0",
+    "bankName": "The Oriental Insurance Co Ltd",
+    "propertyType": "RESIDENTIAL/ Flat",
+    "city": "Visakhapatnam",
+    "district": "Anantapur",
+    "state": "Andhra Pradesh",
+    "reservePrice": 4089750.0,
+    "auctionDate": "2026-10-06",
+    "detailUrl": "https://www.mstcecommerce.com/auctionhome/propsearch/property_search.jsp",
+    "scrapedAt": "2026-09-27T06:32:23+00:00"
+  }
+]
