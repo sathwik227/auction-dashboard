@@ -16,6 +16,8 @@ export interface AuctionRecord {
   scrapedAt: string;
 }
 
+export type SortOption = "date-asc" | "price-asc" | "price-desc" | "bank-asc";
+
 export interface AuctionFilters {
   query: string;
   state: string;
@@ -23,6 +25,7 @@ export interface AuctionFilters {
   propertyType: string;
   minPrice: string;
   maxPrice: string;
+  sortBy: SortOption;
 }
 
 export const emptyFilters: AuctionFilters = {
@@ -32,4 +35,5 @@ export const emptyFilters: AuctionFilters = {
   propertyType: "",
   minPrice: "",
   maxPrice: "",
+  sortBy: "date-asc",
 };

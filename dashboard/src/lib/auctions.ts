@@ -49,11 +49,12 @@ export function filterAuctions(
     propertyType: string;
     minPrice: number | null;
     maxPrice: number | null;
+    sortBy?: string;
   },
 ): AuctionRecord[] {
   const q = filters.query.trim().toLowerCase();
 
-  return records.filter((item) => {
+  const filtered = records.filter((item) => {
     if (filters.state && item.state !== filters.state) return false;
     if (filters.district && item.district !== filters.district) return false;
     if (
@@ -86,6 +87,26 @@ export function filterAuctions(
       .toLowerCase();
     return haystack.includes(q);
   });
+
+  if (filters.sortBy) {
+    filtered.sort((a, b) => {
+      if (filters.sortBy === "price-asc") {
+        return (a.reservePrice ?? Infinity) - (b.reservePrice ?? Infinity);
+      }
+      if (filters.sortBy === "price-desc") {
+        return (b.reservePrice ?? 0) - (a.reservePrice ?? 0);
+      }
+      if (filters.sortBy === "bank-asc") {
+        return a.bankName.localeCompare(b.bankName);
+      }
+      // Default: date-asc (earliest auction date first)
+      const dateA = a.auctionDate || "9999-99-99";
+      const dateB = b.auctionDate || "9999-99-99";
+      return dateA.localeCompare(dateB);
+    });
+  }
+
+  return filtered;
 }
 
 export function uniqueSorted(values: string[]): string[] {
@@ -101,4 +122,17 @@ export function formatInr(value: number | null): string {
     currency: "INR",
     maximumFractionDigits: 0,
   }).format(value);
+}
+
+export function formatInrShort(value: number | null): string {
+  if (value == null) return "N/A";
+  if (value >= 10000000) {
+    const cr = value / 10000000;
+    return `₹${cr % 1 === 0 ? cr.toFixed(0) : cr.toFixed(2)} Cr`;
+  }
+  if (value >= 100000) {
+    const lakh = value / 100000;
+    return `₹${lakh % 1 === 0 ? lakh.toFixed(0) : lakh.toFixed(2)} Lakh`;
+  }
+  return formatInr(value);
 }
