@@ -1,5 +1,45 @@
 import type { AuctionRecord } from "./types";
 
+const ALLOWED_SOURCES = new Set<string>(["eauctiondekho", "baanknet"]);
+
+export function todayIstDateString(): string {
+  return new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Kolkata" }).format(
+    new Date(),
+  );
+}
+
+export function isUpcomingAuction(
+  auctionDate: string | null | undefined,
+): boolean {
+  if (!auctionDate) return false;
+  const match = auctionDate.match(/^(\d{4}-\d{2}-\d{2})/);
+  if (!match) return false;
+  return match[1] >= todayIstDateString();
+}
+
+export function filterVisibleAuctions(records: AuctionRecord[]): AuctionRecord[] {
+  return records.filter(
+    (item) =>
+      ALLOWED_SOURCES.has(item.source) && isUpcomingAuction(item.auctionDate),
+  );
+}
+
+export function detailLinkLabel(
+  detailUrl: string | null,
+  listingPortal?: string | null,
+): string {
+  if (listingPortal?.trim()) {
+    return `View on ${listingPortal.trim()}`;
+  }
+  if (!detailUrl) return "View listing";
+  try {
+    const host = new URL(detailUrl).hostname.replace(/^www\./, "");
+    return host ? `View on ${host}` : "View listing";
+  } catch {
+    return "View listing";
+  }
+}
+
 export function filterAuctions(
   records: AuctionRecord[],
   filters: {

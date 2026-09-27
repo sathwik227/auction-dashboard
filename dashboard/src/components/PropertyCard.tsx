@@ -1,4 +1,4 @@
-import { formatInr } from "@/lib/auctions";
+import { detailLinkLabel, formatInr } from "@/lib/auctions";
 import type { AuctionRecord } from "@/lib/types";
 
 const sourceStyles: Record<
@@ -15,15 +15,22 @@ const sourceStyles: Record<
   },
 };
 
+const legacyBadge = {
+  label: "Legacy",
+  className: "bg-slate-100 text-slate-600",
+};
+
 type PropertyCardProps = {
   auction: AuctionRecord;
 };
 
 export function PropertyCard({ auction }: PropertyCardProps) {
-  const badge = sourceStyles[auction.source];
+  const badge =
+    sourceStyles[auction.source as AuctionRecord["source"]] ?? legacyBadge;
   const location = [auction.city, auction.district, auction.state]
     .filter(Boolean)
     .join(", ");
+  const linkLabel = detailLinkLabel(auction.detailUrl, auction.listingPortal);
 
   return (
     <article className="flex h-full flex-col rounded-xl border border-slate-200 bg-white p-5 shadow-sm transition hover:shadow-md">
@@ -70,7 +77,7 @@ export function PropertyCard({ auction }: PropertyCardProps) {
             rel="noopener noreferrer"
             className="inline-flex w-full items-center justify-center rounded-lg bg-slate-900 px-4 py-2.5 text-sm font-medium text-white hover:bg-slate-800"
           >
-            View listing
+            {linkLabel}
           </a>
         ) : (
           <span className="block text-center text-sm text-slate-400">

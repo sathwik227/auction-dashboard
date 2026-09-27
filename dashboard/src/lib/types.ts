@@ -12,6 +12,7 @@ export interface AuctionRecord {
   reservePrice: number | null;
   auctionDate: string | null;
   detailUrl: string | null;
+  listingPortal?: string | null;
   scrapedAt: string;
 }
 

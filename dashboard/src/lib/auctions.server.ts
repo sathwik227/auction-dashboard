@@ -3,6 +3,8 @@ import path from "path";
 
 import type { AuctionRecord } from "./types";
 
+import { filterVisibleAuctions } from "./auctions";
+
 const REVALIDATE_SECONDS = 3600;
 
 export async function loadAuctions(): Promise<AuctionRecord[]> {
@@ -16,11 +18,11 @@ export async function loadAuctions(): Promise<AuctionRecord[]> {
       throw new Error(`Failed to fetch auctions JSON (${res.status})`);
     }
     const data = (await res.json()) as AuctionRecord[];
-    return Array.isArray(data) ? data : [];
+    return filterVisibleAuctions(Array.isArray(data) ? data : []);
   }
 
   const filePath = path.join(process.cwd(), "..", "data", "auctions.json");
   const raw = fs.readFileSync(filePath, "utf-8");
   const data = JSON.parse(raw) as AuctionRecord[];
-  return Array.isArray(data) ? data : [];
+  return filterVisibleAuctions(Array.isArray(data) ? data : []);
 }

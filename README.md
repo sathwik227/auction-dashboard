@@ -42,7 +42,12 @@ $env:SCRAPER_MAX_PAGES='5'
 python scraper/scraper.py
 ```
 
-Merged output keeps existing rows by `id` and drops legacy sources (`mstc`, `ibapi`, etc.) on the next write.
+Merged output keeps existing rows by `id`, drops legacy sources (`mstc`, `ibapi`, etc.), and **only keeps auctions with `auctionDate` on or after today (IST)**.
+
+### Dashboard labels
+
+- **Badge** on each tile = where data was scraped (`eauctiondekho` or `baanknet`).
+- **Button** opens the official listing URL from the API (`noticeLink` or BaankNet property detail). The button text shows the destination (hostname or `listingPortal`), which may differ from the badge when eAuctionDekho links to another portal.
 
 ## GitHub Actions
 

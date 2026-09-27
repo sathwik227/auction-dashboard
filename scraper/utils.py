@@ -3,8 +3,11 @@
 from __future__ import annotations
 
 import re
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from typing import Any
+
+ALLOWED_SOURCES = frozenset({"eauctiondekho", "baanknet"})
+IST = timezone(timedelta(hours=5, minutes=30))
 
 AP_TS_STATES = {
     "andhra pradesh",
@@ -69,6 +72,30 @@ USER_AGENT = (
 
 def utc_now_iso() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+
+
+def today_ist() -> date:
+    return datetime.now(IST).date()
+
+
+def is_upcoming(auction_date: str | None, *, today: date | None = None) -> bool:
+    if not auction_date:
+        return False
+    parsed = parse_auction_date(auction_date)
+    if not parsed:
+        return False
+    ref = today if today is not None else today_ist()
+    return date.fromisoformat(parsed) >= ref
+
+
+def filter_records(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    kept = [
+        item
+        for item in records
+        if item.get("source") in ALLOWED_SOURCES
+        and is_upcoming(item.get("auctionDate"))
+    ]
+    return sorted(kept, key=lambda x: (x.get("auctionDate") or "", x.get("id") or ""))
 
 
 def normalize_state(state: str | None) -> str:
@@ -140,9 +167,10 @@ def make_record(
     reserve_price: float | None,
     auction_date: str | None,
     detail_url: str | None,
+    listing_portal: str | None = None,
 ) -> dict[str, Any]:
     portal_id = auction_id
-    return {
+    record: dict[str, Any] = {
         "id": f"{source}:{portal_id}",
         "source": source,
         "auctionId": portal_id,
@@ -156,6 +184,9 @@ def make_record(
         "detailUrl": detail_url,
         "scrapedAt": utc_now_iso(),
     }
+    if listing_portal:
+        record["listingPortal"] = listing_portal.strip()
+    return record
 
 
 def merge_records(existing: list[dict], incoming: list[dict]) -> list[dict]:
