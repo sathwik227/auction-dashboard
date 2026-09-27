@@ -4,7 +4,7 @@ Monorepo for scraping bank property auctions in **Andhra Pradesh** and **Telanga
 
 ## Project layout
 
-- `scraper/` — Python scraper (`requests` + BeautifulSoup)
+- `scraper/` — Python scraper (`requests` + JSON APIs)
 - `data/auctions.json` — scraped listings (committed by CI)
 - `dashboard/` — Next.js + Tailwind UI
 - `.github/workflows/scraper.yml` — daily scraper automation
@@ -21,14 +21,35 @@ python scraper/scraper.py
 
 Output: `data/auctions.json`
 
-**Note:** The MSTC property search runs per district (AP + Telangana) and can take several minutes on a full run. For a quick local test, set `SCRAPER_MAX_DISTRICTS=2` (limits districts per state).
+### Pagination
+
+The scraper reads **`SCRAPER_MAX_PAGES`** (per state, per source). Default is **5**.
+
+| Run type | Suggested value |
+|----------|-----------------|
+| **First backfill** | `300` (or `0` = no cap until API ends) |
+| **Daily incremental** | `2`–`5` (new listings appear on first pages) |
+
+PowerShell examples:
+
+```powershell
+# Full backfill once
+$env:SCRAPER_MAX_PAGES='300'
+python scraper/scraper.py
+
+# Quick daily-style run
+$env:SCRAPER_MAX_PAGES='5'
+python scraper/scraper.py
+```
+
+Merged output keeps existing rows by `id` and drops legacy sources (`mstc`, `ibapi`, etc.) on the next write.
 
 ## GitHub Actions
 
 - Workflow: `.github/workflows/scraper.yml`
-- Schedule: `30 1 * * *` UTC = **7:00 AM IST**
-- Manual run: Actions → *Daily auction scraper* → *Run workflow*
-- Requires `contents: write` (already set) so the bot can push JSON updates
+- Schedule: `30 1 * * *` UTC = **7:00 AM IST** with **`SCRAPER_MAX_PAGES=5`**
+- **Full backfill:** Actions → *Daily auction scraper* → *Run workflow* → enable **Full backfill**
+- Requires `contents: write` so the bot can push JSON updates
 
 ## Dashboard (local)
 
@@ -53,13 +74,12 @@ Open http://localhost:3000
 
 ## Data sources
 
-| Source | Portal |
-|--------|--------|
-| `ibapi` | [ibapi.in](https://www.ibapi.in) (IBAPI listings via MSTC search) |
-| `mstc` | [mstcecommerce.com](https://www.mstcecommerce.com) property search |
-| `sbi` | [sbi.auctiontiger.net](https://sbi.auctiontiger.net) + SBI-named banks in search results |
+| Source | Portal | API |
+|--------|--------|-----|
+| `eauctiondekho` | [eauctiondekho.com](https://www.eauctiondekho.com) | `api.eauctiondekho.com/api/notices` |
+| `baanknet` | [baanknet.com](https://baanknet.com) | `POST .../property/detail/property-filter` |
 
-Scrapers are best-effort; portal HTML changes may require adapter updates. Respect each site’s terms of use.
+Scrapers are best-effort; API changes may require updates. Respect each site’s terms of use.
 
 ## Legal
 

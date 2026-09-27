@@ -13,3 +13,6 @@ dashboard/out/
 # OS / IDE
 .DS_Store
 *.log
+
+# Local debug captures (not needed in repo)
+*.har

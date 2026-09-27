@@ -5,17 +5,13 @@ const sourceStyles: Record<
   AuctionRecord["source"],
   { label: string; className: string }
 > = {
-  ibapi: {
-    label: "IBAPI",
-    className: "bg-emerald-100 text-emerald-800",
+  eauctiondekho: {
+    label: "eAuctionDekho",
+    className: "bg-amber-100 text-amber-900",
   },
-  mstc: {
-    label: "MSTC",
-    className: "bg-sky-100 text-sky-800",
-  },
-  sbi: {
-    label: "SBI",
-    className: "bg-indigo-100 text-indigo-800",
+  baanknet: {
+    label: "BaankNet",
+    className: "bg-violet-100 text-violet-800",
   },
 };
 

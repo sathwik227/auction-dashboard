@@ -1,4 +1,4 @@
-export type AuctionSource = "ibapi" | "mstc" | "sbi";
+export type AuctionSource = "eauctiondekho" | "baanknet";
 
 export interface AuctionRecord {
   id: string;

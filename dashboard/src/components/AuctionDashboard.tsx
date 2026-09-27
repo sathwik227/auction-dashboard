@@ -56,8 +56,8 @@ export function AuctionDashboard({ initialRecords }: AuctionDashboardProps) {
           Bank property auctions
         </h1>
         <p className="max-w-2xl text-slate-600">
-          Live and upcoming reserve-price auctions from IBAPI, MSTC, and SBI
-          AuctionTiger sources. Data refreshes daily via GitHub Actions.
+          Live and upcoming reserve-price auctions from eAuctionDekho and
+          BaankNet. Data refreshes daily via GitHub Actions.
         </p>
       </header>
 

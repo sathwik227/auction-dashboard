@@ -5,6 +5,11 @@ on:
     # 07:00 IST = 01:30 UTC
     - cron: "30 1 * * *"
   workflow_dispatch:
+    inputs:
+      full_scrape:
+        description: "Full backfill (all pages; can take 30–90+ min)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -12,6 +17,8 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    env:
+      SCRAPER_MAX_PAGES: ${{ github.event_name == 'workflow_dispatch' && inputs.full_scrape && '300' || '5' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
