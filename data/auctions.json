@@ -1,5 +1,19 @@
 [
   {
+    "id": "mstc:MSTC/NRO/AI ASSETS HOLDING LTD/1/New Delhi/26-27/9673-1",
+    "source": "mstc",
+    "auctionId": "MSTC/NRO/AI ASSETS HOLDING LTD/1/New Delhi/26-27/9673-1",
+    "bankName": "AI ASSETS HOLDING LTD",
+    "propertyType": "COMMERCIAL/ Land/Plot",
+    "city": "Ai Assets Holding Ltd",
+    "district": "Hyderabad",
+    "state": "Telangana",
+    "reservePrice": 2911000000.0,
+    "auctionDate": "2026-09-30",
+    "detailUrl": "https://www.mstcecommerce.com/auctionhome/propsearch/property_search.jsp",
+    "scrapedAt": "2026-09-27T06:47:51+00:00"
+  },
+  {
     "id": "mstc:MSTC/NRO/The Oriental Insurance Co Ltd/1/VISAKHAPATNAM/26-27/27434-1.0",
     "source": "mstc",
     "auctionId": "MSTC/NRO/The Oriental Insurance Co Ltd/1/VISAKHAPATNAM/26-27/27434-1.0",
@@ -11,7 +25,7 @@
     "reservePrice": 3310650.0,
     "auctionDate": "2026-10-06",
     "detailUrl": "https://www.mstcecommerce.com/auctionhome/propsearch/property_search.jsp",
-    "scrapedAt": "2026-09-27T06:32:23+00:00"
+    "scrapedAt": "2026-09-27T06:47:51+00:00"
   },
   {
     "id": "mstc:MSTC/NRO/The Oriental Insurance Co Ltd/1/VISAKHAPATNAM/26-27/27434-2.0",
@@ -25,6 +39,6 @@
     "reservePrice": 4089750.0,
     "auctionDate": "2026-10-06",
     "detailUrl": "https://www.mstcecommerce.com/auctionhome/propsearch/property_search.jsp",
-    "scrapedAt": "2026-09-27T06:32:23+00:00"
+    "scrapedAt": "2026-09-27T06:47:51+00:00"
   }
 ]
