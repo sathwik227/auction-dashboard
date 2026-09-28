@@ -1,34 +1,5 @@
 [
   {
-    "id": "eauctiondekho:598689",
-    "source": "eauctiondekho",
-    "auctionId": "598689",
-    "bankName": "IndusInd Bank",
-    "propertyType": "Residential",
-    "city": "Secunderabad",
-    "district": "Secunderabad",
-    "state": "Telangana",
-    "reservePrice": 2.0,
-    "auctionDate": "2026-09-27",
-    "detailUrl": "https://www.bankeauctions.com/immovable-land-secunderabad-239610",
-    "scrapedAt": "2026-09-27T08:07:42+00:00"
-  },
-  {
-    "id": "eauctiondekho:indusind-bank-auctions-for-residential-property-in-secunderabad-telangana-8jybj96orc",
-    "source": "eauctiondekho",
-    "auctionId": "indusind-bank-auctions-for-residential-property-in-secunderabad-telangana-8jybj96orc",
-    "bankName": "IndusInd Bank",
-    "propertyType": "Residential",
-    "city": "Secunderabad",
-    "district": "Secunderabad",
-    "state": "Telangana",
-    "reservePrice": 2.0,
-    "auctionDate": "2026-09-27",
-    "detailUrl": "https://www.bankeauctions.com/immovable-land-secunderabad-239610",
-    "scrapedAt": "2026-09-27T11:02:09+00:00",
-    "listingPortal": "bankeauctions"
-  },
-  {
     "id": "baanknet:BARBCHODISETTY",
     "source": "baanknet",
     "auctionId": "BARBCHODISETTY",
@@ -2520,7 +2491,7 @@
     "reservePrice": 13002000.0,
     "auctionDate": "2026-09-28",
     "detailUrl": "https://bankauctions.in/auction/commercial-property-at-parklane-secunderabad-3/",
-    "scrapedAt": "2026-09-27T11:02:09+00:00",
+    "scrapedAt": "2026-09-28T07:09:59+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -2642,6 +2613,36 @@
     "detailUrl": "https://www.bankeauctions.com/immovable-residential-guntur-237847",
     "scrapedAt": "2026-09-27T11:02:03+00:00",
     "listingPortal": "bankeauctions"
+  },
+  {
+    "id": "eauctiondekho:pnb-housing-finance-limited-auctions-for-residential-property-in-hyderabad-telangana-y3hdnhztl7",
+    "source": "eauctiondekho",
+    "auctionId": "pnb-housing-finance-limited-auctions-for-residential-property-in-hyderabad-telangana-y3hdnhztl7",
+    "bankName": "PNB Housing Finance Limited",
+    "propertyType": "Residential",
+    "city": "Hyderabad",
+    "district": "Hyderabad",
+    "state": "Telangana",
+    "reservePrice": 2698000.0,
+    "auctionDate": "2026-09-28",
+    "detailUrl": "https://bankauctions.in/auction/plot-at-rampally-dayara-orrgo-village-keesara-orrge-mandal-hyderabad/",
+    "scrapedAt": "2026-09-28T07:09:59+00:00",
+    "listingPortal": "bankauctions"
+  },
+  {
+    "id": "eauctiondekho:pnb-housing-finance-limited-auctions-for-residential-property-in-ranga-reddy-telangana-sibrq4z2mr",
+    "source": "eauctiondekho",
+    "auctionId": "pnb-housing-finance-limited-auctions-for-residential-property-in-ranga-reddy-telangana-sibrq4z2mr",
+    "bankName": "PNB Housing Finance Limited",
+    "propertyType": "Residential",
+    "city": "Ranga Reddy",
+    "district": "Ranga Reddy",
+    "state": "Telangana",
+    "reservePrice": 8005000.0,
+    "auctionDate": "2026-09-28",
+    "detailUrl": "https://bankauctions.in/auction/house-at-alwal-circle-malkajgiri-mandal-ranga-reddy-district-hyderabad-2/",
+    "scrapedAt": "2026-09-28T07:09:59+00:00",
+    "listingPortal": "bankauctions"
   },
   {
     "id": "eauctiondekho:residential-auction-for-flat-in-west-godavari-andhra-pradesh-voel8u737a",
@@ -5920,7 +5921,22 @@
     "reservePrice": 3200000.0,
     "auctionDate": "2026-09-29",
     "detailUrl": "https://bankauctions.in/auction/flat-at-venkateshwara-colony-upperpally-village-rajendranagar-circle-ranga-reddy/",
-    "scrapedAt": "2026-09-27T11:02:09+00:00",
+    "scrapedAt": "2026-09-28T07:09:59+00:00",
+    "listingPortal": "bankauctions"
+  },
+  {
+    "id": "eauctiondekho:bajaj-housing-finance-ltd-auctions-for-residential-property-in-hyderabad-telangana-sc564gvky8",
+    "source": "eauctiondekho",
+    "auctionId": "bajaj-housing-finance-ltd-auctions-for-residential-property-in-hyderabad-telangana-sc564gvky8",
+    "bankName": "Bajaj Housing Finance Ltd",
+    "propertyType": "Residential",
+    "city": "Hyderabad",
+    "district": "Hyderabad",
+    "state": "Telangana",
+    "reservePrice": 8600000.0,
+    "auctionDate": "2026-09-29",
+    "detailUrl": "https://bankauctions.in/auction/house-at-dammaiguda-nagaram-village-keesara-mandal-medchal-malkajgiri-district/",
+    "scrapedAt": "2026-09-28T07:09:59+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -6175,8 +6191,23 @@
     "reservePrice": 55800000.0,
     "auctionDate": "2026-09-29",
     "detailUrl": "https://bankauctions.in/auction/house-at-kukatpally-balanagar-ranga-reddy-dist/",
-    "scrapedAt": "2026-09-27T11:02:09+00:00",
+    "scrapedAt": "2026-09-28T07:09:59+00:00",
     "listingPortal": "bankauctions"
+  },
+  {
+    "id": "eauctiondekho:kotak-mahindra-bank-auctions-for-residential-property-in-warangal-telangana-g9y9gerwvx",
+    "source": "eauctiondekho",
+    "auctionId": "kotak-mahindra-bank-auctions-for-residential-property-in-warangal-telangana-g9y9gerwvx",
+    "bankName": "Kotak Mahindra Bank",
+    "propertyType": "Residential",
+    "city": "Warangal",
+    "district": "Warangal",
+    "state": "Telangana",
+    "reservePrice": 67.0,
+    "auctionDate": "2026-09-29",
+    "detailUrl": "https://www.bankeauctions.com/immovable-land-warangal-240718",
+    "scrapedAt": "2026-09-28T07:09:59+00:00",
+    "listingPortal": "bankeauctions"
   },
   {
     "id": "eauctiondekho:lic-housing-finance-ltd-auctions-for-residential-property-in-chittoor-andhra-pradesh-ijyq2y8hwm",
@@ -6205,7 +6236,7 @@
     "reservePrice": 3200000.0,
     "auctionDate": "2026-09-29",
     "detailUrl": "https://bankauctions.in/auction/flat-at-turkayamjal-village-abdullapurmet-rev-mandal-ranga-reddy-district/",
-    "scrapedAt": "2026-09-27T11:02:09+00:00",
+    "scrapedAt": "2026-09-28T07:09:59+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -6235,7 +6266,7 @@
     "reservePrice": 20.0,
     "auctionDate": "2026-09-29",
     "detailUrl": "https://www.bankeauctions.com/immovable-flat-mumbai-240615",
-    "scrapedAt": "2026-09-27T11:02:09+00:00",
+    "scrapedAt": "2026-09-28T07:09:59+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -6280,7 +6311,7 @@
     "reservePrice": 56.0,
     "auctionDate": "2026-09-29",
     "detailUrl": "https://auctionfocus.in/ViewAuctionDetail.aspx?AuctionDetailId=11997",
-    "scrapedAt": "2026-09-27T11:02:09+00:00",
+    "scrapedAt": "2026-09-28T07:09:59+00:00",
     "listingPortal": "auctionfocus"
   },
   {
@@ -6295,7 +6326,7 @@
     "reservePrice": 40.0,
     "auctionDate": "2026-09-29",
     "detailUrl": "https://auctionfocus.in/ViewAuctionDetail.aspx?AuctionDetailId=12077",
-    "scrapedAt": "2026-09-27T11:02:09+00:00",
+    "scrapedAt": "2026-09-28T07:09:59+00:00",
     "listingPortal": "auctionfocus"
   },
   {
@@ -6310,7 +6341,7 @@
     "reservePrice": 31.0,
     "auctionDate": "2026-09-29",
     "detailUrl": "https://auctionfocus.in/ViewAuctionDetail.aspx?AuctionDetailId=12075",
-    "scrapedAt": "2026-09-27T11:02:09+00:00",
+    "scrapedAt": "2026-09-28T07:09:59+00:00",
     "listingPortal": "auctionfocus"
   },
   {
@@ -6430,7 +6461,7 @@
     "reservePrice": 10.0,
     "auctionDate": "2026-09-29",
     "detailUrl": "https://www.bankeauctions.com/movable-vehicle-hyderabad-240342",
-    "scrapedAt": "2026-09-27T11:02:09+00:00",
+    "scrapedAt": "2026-09-28T07:09:59+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -7085,7 +7116,7 @@
     "reservePrice": 4700000.0,
     "auctionDate": "2026-09-30",
     "detailUrl": "https://bankauctions.in/auction/residential-flat-at-goutham-nagar-colony-patancheru-town-sangareddy-dist/",
-    "scrapedAt": "2026-09-27T11:02:08+00:00",
+    "scrapedAt": "2026-09-28T07:09:58+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -7100,7 +7131,7 @@
     "reservePrice": 5400000.0,
     "auctionDate": "2026-09-30",
     "detailUrl": "https://bankauctions.in/auction/flat-at-village-gajularamaram-mandal-quthbullapur-regn-dist-medchal-malkajgiri/",
-    "scrapedAt": "2026-09-27T11:02:09+00:00",
+    "scrapedAt": "2026-09-28T07:09:59+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -7115,7 +7146,7 @@
     "reservePrice": 17313000.0,
     "auctionDate": "2026-09-30",
     "detailUrl": "https://bankauctions.in/auction/flat-at-dhananjaya-estate-kowkoor-alwal-circle-medchal-malkajgiri/",
-    "scrapedAt": "2026-09-27T11:02:09+00:00",
+    "scrapedAt": "2026-09-28T07:09:58+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -7130,7 +7161,7 @@
     "reservePrice": 12000000.0,
     "auctionDate": "2026-09-30",
     "detailUrl": "https://bankauctions.in/auction/house-at-at-village-grampanchayat-nagaram-keesara-mandal-medchal-malkajgiri-district/",
-    "scrapedAt": "2026-09-27T11:02:09+00:00",
+    "scrapedAt": "2026-09-28T07:09:59+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -7145,7 +7176,7 @@
     "reservePrice": 5280000.0,
     "auctionDate": "2026-09-30",
     "detailUrl": "https://bankauctions.in/auction/flat-at-at-godumakunta-village-keesara-mandal-medchal-malkajgiri-district/",
-    "scrapedAt": "2026-09-27T10:48:20+00:00",
+    "scrapedAt": "2026-09-28T07:09:59+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -7160,7 +7191,7 @@
     "reservePrice": 4100000.0,
     "auctionDate": "2026-09-30",
     "detailUrl": "https://bankauctions.in/auction/flat-at-pashamailaram-village-patancheru-mandal-sanga-reddy-district-telangana/",
-    "scrapedAt": "2026-09-27T10:54:07+00:00",
+    "scrapedAt": "2026-09-28T07:09:59+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -7175,7 +7206,7 @@
     "reservePrice": 5400000.0,
     "auctionDate": "2026-09-30",
     "detailUrl": "https://bankauctions.in/auction/house-at-at-kandukur-village-and-grampanchayat-kandukur-mandal-ranga-reddy-district/",
-    "scrapedAt": "2026-09-27T11:02:09+00:00",
+    "scrapedAt": "2026-09-28T07:09:59+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -7190,7 +7221,7 @@
     "reservePrice": 3900000.0,
     "auctionDate": "2026-09-30",
     "detailUrl": "https://bankauctions.in/auction/flat-at-a-t-old-bowenpally-village-medchal-malkajgiri-district-telangana-state/",
-    "scrapedAt": "2026-09-27T11:02:09+00:00",
+    "scrapedAt": "2026-09-28T07:09:59+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -7205,7 +7236,7 @@
     "reservePrice": 5100000.0,
     "auctionDate": "2026-09-30",
     "detailUrl": "https://bankauctions.in/auction/residentail-flat-at-at-tolichowki-shaikpet-village-hyderabad/",
-    "scrapedAt": "2026-09-27T11:02:09+00:00",
+    "scrapedAt": "2026-09-28T07:09:59+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -7220,7 +7251,7 @@
     "reservePrice": 8500000.0,
     "auctionDate": "2026-09-30",
     "detailUrl": "https://bankauctions.in/auction/plot-at-sanjay-gandhi-nagar-gandhamguda-village-rajendranagar-mandal-ranga-reddy-district/",
-    "scrapedAt": "2026-09-27T11:02:09+00:00",
+    "scrapedAt": "2026-09-28T07:09:58+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -7235,7 +7266,7 @@
     "reservePrice": 2.0,
     "auctionDate": "2026-09-30",
     "detailUrl": "https://www.bankeauctions.com/immovable-floor-ranga reddy district-239382",
-    "scrapedAt": "2026-09-27T11:02:09+00:00",
+    "scrapedAt": "2026-09-28T07:09:59+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -7250,7 +7281,7 @@
     "reservePrice": 42.0,
     "auctionDate": "2026-09-30",
     "detailUrl": "https://www.bankeauctions.com/immovable-flat-ranga reddy district-239387",
-    "scrapedAt": "2026-09-27T11:02:09+00:00",
+    "scrapedAt": "2026-09-28T07:09:59+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -7280,7 +7311,7 @@
     "reservePrice": 9.0,
     "auctionDate": "2026-09-30",
     "detailUrl": "https://www.bankeauctions.com/immovable-residential flat-thane-239703",
-    "scrapedAt": "2026-09-27T11:02:09+00:00",
+    "scrapedAt": "2026-09-28T07:09:59+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -7310,7 +7341,7 @@
     "reservePrice": 1.0,
     "auctionDate": "2026-09-30",
     "detailUrl": "https://www.bankeauctions.com/immovable-land-ranga reddy district-239718",
-    "scrapedAt": "2026-09-27T11:02:09+00:00",
+    "scrapedAt": "2026-09-28T07:09:59+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -7355,7 +7386,7 @@
     "reservePrice": 1.0,
     "auctionDate": "2026-09-30",
     "detailUrl": "https://www.bankeauctions.com/immovable-land-medak-239616",
-    "scrapedAt": "2026-09-27T11:02:08+00:00",
+    "scrapedAt": "2026-09-28T07:09:58+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -7370,7 +7401,7 @@
     "reservePrice": 50.0,
     "auctionDate": "2026-09-30",
     "detailUrl": "https://www.bankeauctions.com/immovable-plot-hyderabad-239672",
-    "scrapedAt": "2026-09-27T11:02:08+00:00",
+    "scrapedAt": "2026-09-28T07:09:58+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -7385,7 +7416,7 @@
     "reservePrice": 46.0,
     "auctionDate": "2026-09-30",
     "detailUrl": "https://www.bankeauctions.com/immovable-residential-ranga reddy district-239691",
-    "scrapedAt": "2026-09-27T11:02:08+00:00",
+    "scrapedAt": "2026-09-28T07:09:58+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -7415,7 +7446,7 @@
     "reservePrice": 30.0,
     "auctionDate": "2026-09-30",
     "detailUrl": "https://www.bankeauctions.com/immovable-plot-vikarabad dist-237864",
-    "scrapedAt": "2026-09-27T11:02:09+00:00",
+    "scrapedAt": "2026-09-28T07:09:59+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -7606,7 +7637,7 @@
     "reservePrice": 34.0,
     "auctionDate": "2026-10-01",
     "detailUrl": "https://www.bankeauctions.com/immovable-land-hyderabad-238076",
-    "scrapedAt": "2026-09-27T11:02:08+00:00",
+    "scrapedAt": "2026-09-28T07:09:58+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -7636,7 +7667,7 @@
     "reservePrice": 16.0,
     "auctionDate": "2026-10-01",
     "detailUrl": "https://www.bankeauctions.com/immovable-residential-siddipet-238074",
-    "scrapedAt": "2026-09-27T11:02:08+00:00",
+    "scrapedAt": "2026-09-28T07:09:58+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -7751,7 +7782,7 @@
     "reservePrice": 16.0,
     "auctionDate": "2026-10-03",
     "detailUrl": "https://www.bankeauctions.com/immovable-land-narayanpet-240093",
-    "scrapedAt": "2026-09-27T11:02:08+00:00",
+    "scrapedAt": "2026-09-28T07:09:58+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -7766,7 +7797,7 @@
     "reservePrice": 18.0,
     "auctionDate": "2026-10-03",
     "detailUrl": "https://www.bankeauctions.com/immovable-land-mahabubnagar-240091",
-    "scrapedAt": "2026-09-27T11:02:08+00:00",
+    "scrapedAt": "2026-09-28T07:09:58+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -7796,7 +7827,7 @@
     "reservePrice": 74177000.0,
     "auctionDate": "2026-10-03",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-raidurg-panmakta-village-serlingampally-mandal-rr-dist-hyderabad/",
-    "scrapedAt": "2026-09-27T11:02:08+00:00",
+    "scrapedAt": "2026-09-28T07:09:58+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -7811,7 +7842,7 @@
     "reservePrice": 87593000.0,
     "auctionDate": "2026-10-03",
     "detailUrl": "https://bankauctions.in/auction/flat-at-at-serilingampally-village-serilingampally-mandal-ranga-reddy/",
-    "scrapedAt": "2026-09-27T11:02:08+00:00",
+    "scrapedAt": "2026-09-28T07:09:58+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -9290,7 +9321,7 @@
     "reservePrice": 16000000.0,
     "auctionDate": "2026-10-06",
     "detailUrl": "https://bankauctions.in/auction/plot-at-jaipuri-colony-nagole-lb-nagar-uppal-medchal-malkajgiri/",
-    "scrapedAt": "2026-09-27T11:02:08+00:00",
+    "scrapedAt": "2026-09-28T07:09:58+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -9305,7 +9336,7 @@
     "reservePrice": 4920000.0,
     "auctionDate": "2026-10-06",
     "detailUrl": "https://bankauctions.in/auction/house-at-parvathapur-village-peerzadiguda-medipally-medchal-malkajgiri/",
-    "scrapedAt": "2026-09-27T11:02:08+00:00",
+    "scrapedAt": "2026-09-28T07:09:58+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -9320,7 +9351,7 @@
     "reservePrice": 4000000.0,
     "auctionDate": "2026-10-06",
     "detailUrl": "https://bankauctions.in/auction/flat-at-esteem-regency-old-bowenpally-balanagar-kukatpally-medchal-malkajgiri/",
-    "scrapedAt": "2026-09-27T11:02:08+00:00",
+    "scrapedAt": "2026-09-28T07:09:58+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -9335,7 +9366,7 @@
     "reservePrice": 13000000.0,
     "auctionDate": "2026-10-06",
     "detailUrl": "https://bankauctions.in/auction/flat-at-ameerpet-hyderabad-telangana/",
-    "scrapedAt": "2026-09-27T11:02:08+00:00",
+    "scrapedAt": "2026-09-28T07:09:58+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -9365,7 +9396,7 @@
     "reservePrice": 4700000.0,
     "auctionDate": "2026-10-06",
     "detailUrl": "https://bankauctions.in/auction/residential-house-at-siddaram-road-sathupally-khammam-dist/",
-    "scrapedAt": "2026-09-27T11:02:08+00:00",
+    "scrapedAt": "2026-09-28T07:09:58+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -9380,7 +9411,7 @@
     "reservePrice": 14340000.0,
     "auctionDate": "2026-10-06",
     "detailUrl": "https://bankauctions.in/auction/house-at-bellampally-mancherial/",
-    "scrapedAt": "2026-09-27T11:02:08+00:00",
+    "scrapedAt": "2026-09-28T07:09:58+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -9680,7 +9711,7 @@
     "reservePrice": 3740000.0,
     "auctionDate": "2026-10-06",
     "detailUrl": "https://bankauctions.in/auction/house-at-nekkonda-warangal/",
-    "scrapedAt": "2026-09-27T11:02:08+00:00",
+    "scrapedAt": "2026-09-28T07:09:58+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -9995,7 +10026,7 @@
     "reservePrice": 3.0,
     "auctionDate": "2026-10-06",
     "detailUrl": "https://www.bankeauctions.com/immovable-land-secunderabad-240109",
-    "scrapedAt": "2026-09-27T11:02:06+00:00",
+    "scrapedAt": "2026-09-28T07:09:57+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -10025,7 +10056,7 @@
     "reservePrice": 23400000.0,
     "auctionDate": "2026-10-06",
     "detailUrl": "https://bankauctions.in/auction/commercial-property-at-bhoktapur-adilabad-16/",
-    "scrapedAt": "2026-09-27T11:02:08+00:00",
+    "scrapedAt": "2026-09-28T07:09:57+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -10040,7 +10071,7 @@
     "reservePrice": 42800000.0,
     "auctionDate": "2026-10-06",
     "detailUrl": "https://bankauctions.in/auction/commercial-property-at-adilabad-town-adilabad-mandal-district-telangana-2/",
-    "scrapedAt": "2026-09-27T11:02:08+00:00",
+    "scrapedAt": "2026-09-28T07:09:58+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -10055,7 +10086,7 @@
     "reservePrice": 9500000.0,
     "auctionDate": "2026-10-06",
     "detailUrl": "https://bankauctions.in/auction/agricultural-land-at-bhoktapur-adilabad-22/",
-    "scrapedAt": "2026-09-27T11:02:08+00:00",
+    "scrapedAt": "2026-09-28T07:09:58+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -10070,7 +10101,7 @@
     "reservePrice": 10070000.0,
     "auctionDate": "2026-10-06",
     "detailUrl": "https://bankauctions.in/auction/commercial-property-at-bhoktapur-adilabad-13/",
-    "scrapedAt": "2026-09-27T10:54:05+00:00",
+    "scrapedAt": "2026-09-28T07:09:58+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -10085,7 +10116,7 @@
     "reservePrice": 20000000.0,
     "auctionDate": "2026-10-06",
     "detailUrl": "https://bankauctions.in/auction/commercial-property-at-at-light-industrial-area-bhukthapur-adilabad/",
-    "scrapedAt": "2026-09-27T11:02:08+00:00",
+    "scrapedAt": "2026-09-28T07:09:58+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -10100,7 +10131,7 @@
     "reservePrice": 9800000.0,
     "auctionDate": "2026-10-06",
     "detailUrl": "https://bankauctions.in/auction/commercial-property-at-bhoktapur-adilabad-14/",
-    "scrapedAt": "2026-09-27T11:02:08+00:00",
+    "scrapedAt": "2026-09-28T07:09:58+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -10115,7 +10146,7 @@
     "reservePrice": 10900000.0,
     "auctionDate": "2026-10-06",
     "detailUrl": "https://bankauctions.in/auction/commercial-property-at-bhoktapur-adilabad-15/",
-    "scrapedAt": "2026-09-27T11:02:08+00:00",
+    "scrapedAt": "2026-09-28T07:09:58+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -10130,7 +10161,7 @@
     "reservePrice": 6.0,
     "auctionDate": "2026-10-06",
     "detailUrl": "https://www.bankeauctions.com/movable-vehicle-ranga reddy district-240435",
-    "scrapedAt": "2026-09-27T11:02:06+00:00",
+    "scrapedAt": "2026-09-28T07:09:57+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -10145,7 +10176,7 @@
     "reservePrice": 6.0,
     "auctionDate": "2026-10-06",
     "detailUrl": "https://www.bankeauctions.com/movable-vehicle-ranga reddy district-240436",
-    "scrapedAt": "2026-09-27T11:02:06+00:00",
+    "scrapedAt": "2026-09-28T07:09:57+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -10160,7 +10191,7 @@
     "reservePrice": 4.0,
     "auctionDate": "2026-10-06",
     "detailUrl": "https://www.bankeauctions.com/movable-vehicle-ranga reddy district-240444",
-    "scrapedAt": "2026-09-27T11:02:06+00:00",
+    "scrapedAt": "2026-09-28T07:09:57+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -10175,7 +10206,7 @@
     "reservePrice": 11.0,
     "auctionDate": "2026-10-06",
     "detailUrl": "https://www.bankeauctions.com/movable-vehicle-ranga reddy district-240438",
-    "scrapedAt": "2026-09-27T11:02:06+00:00",
+    "scrapedAt": "2026-09-28T07:09:57+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -10190,7 +10221,7 @@
     "reservePrice": 15.0,
     "auctionDate": "2026-10-06",
     "detailUrl": "https://www.bankeauctions.com/movable-vehicle-ranga reddy district-240441",
-    "scrapedAt": "2026-09-27T11:02:06+00:00",
+    "scrapedAt": "2026-09-28T07:09:57+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -10891,7 +10922,7 @@
     "reservePrice": 50.0,
     "auctionDate": "2026-10-07",
     "detailUrl": "https://www.bankeauctions.com/immovable-commerical-karimnagar-239077",
-    "scrapedAt": "2026-09-27T11:02:06+00:00",
+    "scrapedAt": "2026-09-28T07:09:57+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -10906,7 +10937,7 @@
     "reservePrice": 1.0,
     "auctionDate": "2026-10-07",
     "detailUrl": "https://www.bankeauctions.com/immovable-residential-karimnagar-239076",
-    "scrapedAt": "2026-09-27T11:02:06+00:00",
+    "scrapedAt": "2026-09-28T07:09:57+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -10921,7 +10952,7 @@
     "reservePrice": 95.0,
     "auctionDate": "2026-10-07",
     "detailUrl": "https://www.bankeauctions.com/immovable-land-ranga reddy district-240292",
-    "scrapedAt": "2026-09-27T11:02:06+00:00",
+    "scrapedAt": "2026-09-28T07:09:57+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -10936,7 +10967,7 @@
     "reservePrice": 68.0,
     "auctionDate": "2026-10-07",
     "detailUrl": "https://www.bankeauctions.com/immovable-plot-medchal-239015",
-    "scrapedAt": "2026-09-27T11:02:06+00:00",
+    "scrapedAt": "2026-09-28T07:09:57+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -10951,7 +10982,7 @@
     "reservePrice": 66.0,
     "auctionDate": "2026-10-07",
     "detailUrl": "https://www.bankeauctions.com/immovable-plot-medchal-239017",
-    "scrapedAt": "2026-09-27T11:02:06+00:00",
+    "scrapedAt": "2026-09-28T07:09:57+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -10966,7 +10997,7 @@
     "reservePrice": 35.0,
     "auctionDate": "2026-10-07",
     "detailUrl": "https://www.bankeauctions.com/immovable-land-karimnagar-237713",
-    "scrapedAt": "2026-09-27T11:02:06+00:00",
+    "scrapedAt": "2026-09-28T07:09:57+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -10996,7 +11027,7 @@
     "reservePrice": 17.0,
     "auctionDate": "2026-10-07",
     "detailUrl": "https://www.bankeauctions.com/movable-vehicle-hyderabad-240261",
-    "scrapedAt": "2026-09-27T11:02:06+00:00",
+    "scrapedAt": "2026-09-28T07:09:57+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -11305,7 +11336,7 @@
     "reservePrice": 58.0,
     "auctionDate": "2026-10-08",
     "detailUrl": "https://auctionfocus.in/ViewAuctionDetail.aspx?AuctionDetailId=11870",
-    "scrapedAt": "2026-09-27T11:02:06+00:00",
+    "scrapedAt": "2026-09-28T07:09:57+00:00",
     "listingPortal": "auctionfocus"
   },
   {
@@ -11335,7 +11366,7 @@
     "reservePrice": 54.0,
     "auctionDate": "2026-10-08",
     "detailUrl": "https://www.bankeauctions.com/immovable-flat-pune-239034",
-    "scrapedAt": "2026-09-27T11:02:06+00:00",
+    "scrapedAt": "2026-09-28T07:09:57+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -11902,7 +11933,7 @@
     "reservePrice": 3200000.0,
     "auctionDate": "2026-10-09",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-sagaram-agraharapeta-naidupeta-nellore/",
-    "scrapedAt": "2026-09-27T11:01:57+00:00",
+    "scrapedAt": "2026-09-28T07:09:54+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -11932,7 +11963,7 @@
     "reservePrice": 2890000.0,
     "auctionDate": "2026-10-09",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-nidadavole-peravalli-kanuru/",
-    "scrapedAt": "2026-09-27T11:01:57+00:00",
+    "scrapedAt": "2026-09-28T07:09:54+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -11947,7 +11978,7 @@
     "reservePrice": 6400000.0,
     "auctionDate": "2026-10-09",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-kadiri-ananthapur/",
-    "scrapedAt": "2026-09-27T11:01:57+00:00",
+    "scrapedAt": "2026-09-28T07:09:54+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -11962,7 +11993,7 @@
     "reservePrice": 2500000.0,
     "auctionDate": "2026-10-09",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-konasema-razole-east-godavari-dist/",
-    "scrapedAt": "2026-09-27T11:01:57+00:00",
+    "scrapedAt": "2026-09-28T07:09:54+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -11977,7 +12008,7 @@
     "reservePrice": 7100000.0,
     "auctionDate": "2026-10-09",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-yerragondapalem-prakasam/",
-    "scrapedAt": "2026-09-27T11:01:57+00:00",
+    "scrapedAt": "2026-09-28T07:09:54+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -11992,7 +12023,7 @@
     "reservePrice": 4860000.0,
     "auctionDate": "2026-10-09",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-cheyyeru-mummidivaram-konaseema/",
-    "scrapedAt": "2026-09-27T11:01:57+00:00",
+    "scrapedAt": "2026-09-28T07:09:54+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -12007,7 +12038,7 @@
     "reservePrice": 3500000.0,
     "auctionDate": "2026-10-09",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-penuganchiprolu-jaggaiahpet-ntr-dist/",
-    "scrapedAt": "2026-09-27T11:01:57+00:00",
+    "scrapedAt": "2026-09-28T07:09:54+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -12022,7 +12053,7 @@
     "reservePrice": 9690000.0,
     "auctionDate": "2026-10-09",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-mahendrawada-anaparthi-east-godavari/",
-    "scrapedAt": "2026-09-27T11:01:57+00:00",
+    "scrapedAt": "2026-09-28T07:09:54+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -12037,7 +12068,7 @@
     "reservePrice": 6600000.0,
     "auctionDate": "2026-10-09",
     "detailUrl": "https://bankauctions.in/auction/site-at-pedagummulurus-rayavaramvisakhapatnam/",
-    "scrapedAt": "2026-09-27T11:01:57+00:00",
+    "scrapedAt": "2026-09-28T07:09:54+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -12052,7 +12083,7 @@
     "reservePrice": 6100000.0,
     "auctionDate": "2026-10-09",
     "detailUrl": "https://bankauctions.in/auction/house-at-gajuwaka-gullalapalem-visakhapatnam/",
-    "scrapedAt": "2026-09-27T11:01:57+00:00",
+    "scrapedAt": "2026-09-28T07:09:54+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -12067,7 +12098,7 @@
     "reservePrice": 5760000.0,
     "auctionDate": "2026-10-09",
     "detailUrl": "https://bankauctions.in/auction/house-at-baligattam-narsipatnam-visakhapatnam/",
-    "scrapedAt": "2026-09-27T11:01:57+00:00",
+    "scrapedAt": "2026-09-28T07:09:54+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -12082,7 +12113,7 @@
     "reservePrice": 7200000.0,
     "auctionDate": "2026-10-09",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-gajuwaka-gullalapalem-visakhapatnam/",
-    "scrapedAt": "2026-09-27T11:01:57+00:00",
+    "scrapedAt": "2026-09-28T07:09:54+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -12097,7 +12128,7 @@
     "reservePrice": 4200000.0,
     "auctionDate": "2026-10-09",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-china-gantyada-gajuwakagreater-visakhapatnam/",
-    "scrapedAt": "2026-09-27T11:01:57+00:00",
+    "scrapedAt": "2026-09-28T07:09:54+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -12112,7 +12143,7 @@
     "reservePrice": 12200000.0,
     "auctionDate": "2026-10-09",
     "detailUrl": "https://bankauctions.in/auction/site-at-paravada-anakapalli/",
-    "scrapedAt": "2026-09-27T11:01:57+00:00",
+    "scrapedAt": "2026-09-28T07:09:54+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -12127,7 +12158,7 @@
     "reservePrice": 18.0,
     "auctionDate": "2026-10-09",
     "detailUrl": "https://www.bankeauctions.com/immovable-land-nellore-238101",
-    "scrapedAt": "2026-09-27T11:01:57+00:00",
+    "scrapedAt": "2026-09-28T07:09:54+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -12142,7 +12173,7 @@
     "reservePrice": 24.0,
     "auctionDate": "2026-10-09",
     "detailUrl": "https://www.bankeauctions.com/immovable-land-tirupati-238107",
-    "scrapedAt": "2026-09-27T11:01:57+00:00",
+    "scrapedAt": "2026-09-28T07:09:54+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -12157,7 +12188,7 @@
     "reservePrice": 20.0,
     "auctionDate": "2026-10-09",
     "detailUrl": "https://www.bankeauctions.com/immovable-land-annamayya-238097",
-    "scrapedAt": "2026-09-27T11:01:57+00:00",
+    "scrapedAt": "2026-09-28T07:09:54+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -12172,7 +12203,7 @@
     "reservePrice": 12.0,
     "auctionDate": "2026-10-09",
     "detailUrl": "https://www.bankeauctions.com/immovable-land-chittoor-238106",
-    "scrapedAt": "2026-09-27T11:01:57+00:00",
+    "scrapedAt": "2026-09-28T07:09:54+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -12187,7 +12218,7 @@
     "reservePrice": 27.0,
     "auctionDate": "2026-10-09",
     "detailUrl": "https://www.bankeauctions.com/immovable-land-kadapa-238098",
-    "scrapedAt": "2026-09-27T11:01:57+00:00",
+    "scrapedAt": "2026-09-28T07:09:54+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -12202,7 +12233,7 @@
     "reservePrice": 25.0,
     "auctionDate": "2026-10-09",
     "detailUrl": "https://www.bankeauctions.com/immovable-plot-kurnool-238102",
-    "scrapedAt": "2026-09-27T11:01:57+00:00",
+    "scrapedAt": "2026-09-28T07:09:54+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -12217,7 +12248,7 @@
     "reservePrice": 43.0,
     "auctionDate": "2026-10-09",
     "detailUrl": "https://www.bankeauctions.com/immovable-land-kurnool-238104",
-    "scrapedAt": "2026-09-27T11:01:57+00:00",
+    "scrapedAt": "2026-09-28T07:09:54+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -12232,7 +12263,7 @@
     "reservePrice": 1100000.0,
     "auctionDate": "2026-10-09",
     "detailUrl": "https://bankauctions.in/auction/flat-at-tattiannaram-abdullapurmet-ranga-reddy-dist/",
-    "scrapedAt": "2026-09-27T11:02:06+00:00",
+    "scrapedAt": "2026-09-28T07:09:57+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -12247,7 +12278,7 @@
     "reservePrice": 7.0,
     "auctionDate": "2026-10-09",
     "detailUrl": "https://www.bankeauctions.com/immovable-flat-surat-238585",
-    "scrapedAt": "2026-09-27T11:01:57+00:00",
+    "scrapedAt": "2026-09-28T07:09:54+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -12262,7 +12293,7 @@
     "reservePrice": 7.0,
     "auctionDate": "2026-10-09",
     "detailUrl": "https://www.bankeauctions.com/immovable-flat-surat-238556",
-    "scrapedAt": "2026-09-27T11:01:57+00:00",
+    "scrapedAt": "2026-09-28T07:09:54+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -12277,7 +12308,7 @@
     "reservePrice": 21.0,
     "auctionDate": "2026-10-09",
     "detailUrl": "https://www.bankeauctions.com/immovable-land-thrissur-237708",
-    "scrapedAt": "2026-09-27T11:01:57+00:00",
+    "scrapedAt": "2026-09-28T07:09:54+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -12292,7 +12323,7 @@
     "reservePrice": 2200000.0,
     "auctionDate": "2026-10-09",
     "detailUrl": "https://bankauctions.in/auction/flat-at-vepurigeri-raichur-road-mahabubnagar/",
-    "scrapedAt": "2026-09-27T11:02:06+00:00",
+    "scrapedAt": "2026-09-28T07:09:57+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -12307,7 +12338,7 @@
     "reservePrice": 8600000.0,
     "auctionDate": "2026-10-09",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-koritepadu-village-guntur-taluk/",
-    "scrapedAt": "2026-09-27T11:01:57+00:00",
+    "scrapedAt": "2026-09-28T07:09:54+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -12322,7 +12353,7 @@
     "reservePrice": 4500000.0,
     "auctionDate": "2026-10-09",
     "detailUrl": "https://bankauctions.in/auction/plot-at-pedda-amberpet-abdullapurmet-ranga-reddy-district/",
-    "scrapedAt": "2026-09-27T11:02:06+00:00",
+    "scrapedAt": "2026-09-28T07:09:57+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -12337,7 +12368,7 @@
     "reservePrice": 2500000.0,
     "auctionDate": "2026-10-09",
     "detailUrl": "https://bankauctions.in/auction/house-at-ahmed-kothapelli-haveli-kothapelli-karimnagar-karimnagar/",
-    "scrapedAt": "2026-09-27T11:02:06+00:00",
+    "scrapedAt": "2026-09-28T07:09:57+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -12352,7 +12383,7 @@
     "reservePrice": 11000000.0,
     "auctionDate": "2026-10-09",
     "detailUrl": "https://bankauctions.in/auction/residential-house-at-kurnool/",
-    "scrapedAt": "2026-09-27T11:01:56+00:00",
+    "scrapedAt": "2026-09-28T07:09:53+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -12367,7 +12398,7 @@
     "reservePrice": 1699000.0,
     "auctionDate": "2026-10-09",
     "detailUrl": "https://bankauctions.in/auction/house-at-dhone-kurnool-2/",
-    "scrapedAt": "2026-09-27T11:01:56+00:00",
+    "scrapedAt": "2026-09-28T07:09:53+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -12382,7 +12413,7 @@
     "reservePrice": 2275000.0,
     "auctionDate": "2026-10-09",
     "detailUrl": "https://bankauctions.in/auction/plot-at-lingareddypally-sangareddy-siddipet/",
-    "scrapedAt": "2026-09-27T11:02:06+00:00",
+    "scrapedAt": "2026-09-28T07:09:57+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -12397,7 +12428,7 @@
     "reservePrice": 690000.0,
     "auctionDate": "2026-10-09",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-venkatepuram-west-godavari/",
-    "scrapedAt": "2026-09-27T11:01:56+00:00",
+    "scrapedAt": "2026-09-28T07:09:53+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -12440,7 +12471,7 @@
     "reservePrice": 22.0,
     "auctionDate": "2026-10-10",
     "detailUrl": "https://www.bankeauctions.com/immovable-land-kadapa-240348",
-    "scrapedAt": "2026-09-27T11:01:56+00:00",
+    "scrapedAt": "2026-09-28T07:09:53+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -12455,7 +12486,7 @@
     "reservePrice": 9.0,
     "auctionDate": "2026-10-10",
     "detailUrl": "https://www.bankeauctions.com/immovable-residential house-kurnool-240352",
-    "scrapedAt": "2026-09-27T11:01:56+00:00",
+    "scrapedAt": "2026-09-28T07:09:53+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -12716,7 +12747,7 @@
     "reservePrice": 41.0,
     "auctionDate": "2026-10-12",
     "detailUrl": "https://www.bankeauctions.com/immovable-residential-suryapet-240508",
-    "scrapedAt": "2026-09-27T11:02:05+00:00",
+    "scrapedAt": "2026-09-28T07:09:57+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -12731,7 +12762,7 @@
     "reservePrice": 9.0,
     "auctionDate": "2026-10-12",
     "detailUrl": "https://www.bankeauctions.com/immovable-residential-suryapet-240512",
-    "scrapedAt": "2026-09-27T11:02:05+00:00",
+    "scrapedAt": "2026-09-28T07:09:57+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -12746,7 +12777,7 @@
     "reservePrice": 18.0,
     "auctionDate": "2026-10-12",
     "detailUrl": "https://www.bankeauctions.com/immovable-residential-suryapet-240537",
-    "scrapedAt": "2026-09-27T11:02:05+00:00",
+    "scrapedAt": "2026-09-28T07:09:56+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -12776,7 +12807,7 @@
     "reservePrice": 26.0,
     "auctionDate": "2026-10-12",
     "detailUrl": "https://www.bankeauctions.com/immovable-residential-warangal-240530",
-    "scrapedAt": "2026-09-27T11:02:06+00:00",
+    "scrapedAt": "2026-09-28T07:09:56+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -12791,7 +12822,7 @@
     "reservePrice": 25.0,
     "auctionDate": "2026-10-12",
     "detailUrl": "https://www.bankeauctions.com/immovable-residential-warangal-240519",
-    "scrapedAt": "2026-09-27T10:48:19+00:00",
+    "scrapedAt": "2026-09-28T07:09:56+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -12806,7 +12837,7 @@
     "reservePrice": 27.0,
     "auctionDate": "2026-10-12",
     "detailUrl": "https://www.bankeauctions.com/immovable-residential-warangal-240533",
-    "scrapedAt": "2026-09-27T11:02:06+00:00",
+    "scrapedAt": "2026-09-28T07:09:56+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -12821,7 +12852,7 @@
     "reservePrice": 17.0,
     "auctionDate": "2026-10-12",
     "detailUrl": "https://www.bankeauctions.com/immovable-residential-warangal-240524",
-    "scrapedAt": "2026-09-27T11:02:06+00:00",
+    "scrapedAt": "2026-09-28T07:09:57+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -12836,7 +12867,7 @@
     "reservePrice": 22.0,
     "auctionDate": "2026-10-12",
     "detailUrl": "https://www.bankeauctions.com/immovable-land-pathanamthitta-240654",
-    "scrapedAt": "2026-09-27T11:01:56+00:00",
+    "scrapedAt": "2026-09-28T07:09:53+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -12851,7 +12882,7 @@
     "reservePrice": 51.0,
     "auctionDate": "2026-10-12",
     "detailUrl": "https://www.bankeauctions.com/immovable-residential-hyderabad-239217",
-    "scrapedAt": "2026-09-27T11:02:06+00:00",
+    "scrapedAt": "2026-09-28T07:09:57+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -12866,7 +12897,7 @@
     "reservePrice": 410000.0,
     "auctionDate": "2026-10-12",
     "detailUrl": "https://bankauctions.in/auction/plot-at-vaguvedu-sri-kalahasthi-mandal-tirupati/",
-    "scrapedAt": "2026-09-27T11:01:56+00:00",
+    "scrapedAt": "2026-09-28T07:09:53+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -13818,7 +13849,7 @@
     "reservePrice": 4103100.0,
     "auctionDate": "2026-10-13",
     "detailUrl": "https://bankauctions.in/auction/house-at-pulagallivanipalem-pendurthi-visakkhapatnam/",
-    "scrapedAt": "2026-09-27T10:53:56+00:00",
+    "scrapedAt": "2026-09-28T07:09:53+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -13833,7 +13864,7 @@
     "reservePrice": 7463700.0,
     "auctionDate": "2026-10-13",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-pedurthi-visakhapatnam/",
-    "scrapedAt": "2026-09-27T10:53:56+00:00",
+    "scrapedAt": "2026-09-28T07:09:53+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -13848,7 +13879,7 @@
     "reservePrice": 7463700.0,
     "auctionDate": "2026-10-13",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-pendurthi-visakhapatnam/",
-    "scrapedAt": "2026-09-27T10:53:56+00:00",
+    "scrapedAt": "2026-09-28T07:09:53+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -13893,7 +13924,7 @@
     "reservePrice": 1.0,
     "auctionDate": "2026-10-13",
     "detailUrl": "https://www.bankeauctions.com/immovable-land-ludhiana-238958",
-    "scrapedAt": "2026-09-27T11:02:05+00:00",
+    "scrapedAt": "2026-09-28T07:09:56+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -13908,7 +13939,7 @@
     "reservePrice": 10.0,
     "auctionDate": "2026-10-13",
     "detailUrl": "https://www.bankeauctions.com/immovable-land-anakapalli-239188",
-    "scrapedAt": "2026-09-27T11:01:56+00:00",
+    "scrapedAt": "2026-09-28T07:09:53+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -13923,7 +13954,7 @@
     "reservePrice": 23.0,
     "auctionDate": "2026-10-13",
     "detailUrl": "https://www.bankeauctions.com/immovable-land-bapatla-239190",
-    "scrapedAt": "2026-09-27T11:01:56+00:00",
+    "scrapedAt": "2026-09-28T07:09:53+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -13938,7 +13969,7 @@
     "reservePrice": 41.0,
     "auctionDate": "2026-10-13",
     "detailUrl": "https://www.bankeauctions.com/immovable-land-east godavari-239181",
-    "scrapedAt": "2026-09-27T11:01:56+00:00",
+    "scrapedAt": "2026-09-28T07:09:53+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -13953,7 +13984,7 @@
     "reservePrice": 22.0,
     "auctionDate": "2026-10-13",
     "detailUrl": "https://www.bankeauctions.com/immovable-land-east godavari-239182",
-    "scrapedAt": "2026-09-27T11:01:56+00:00",
+    "scrapedAt": "2026-09-28T07:09:53+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -13998,7 +14029,7 @@
     "reservePrice": 17.0,
     "auctionDate": "2026-10-13",
     "detailUrl": "https://www.bankeauctions.com/immovable-land-guntur-239200",
-    "scrapedAt": "2026-09-27T11:01:56+00:00",
+    "scrapedAt": "2026-09-28T07:09:53+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -14013,7 +14044,7 @@
     "reservePrice": 15.0,
     "auctionDate": "2026-10-13",
     "detailUrl": "https://www.bankeauctions.com/immovable-land-east godavari-239185",
-    "scrapedAt": "2026-09-27T11:01:56+00:00",
+    "scrapedAt": "2026-09-28T07:09:53+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -14028,7 +14059,7 @@
     "reservePrice": 25.0,
     "auctionDate": "2026-10-13",
     "detailUrl": "https://www.bankeauctions.com/immovable-land-vijayawada-239196",
-    "scrapedAt": "2026-09-27T11:01:56+00:00",
+    "scrapedAt": "2026-09-28T07:09:53+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -14043,7 +14074,7 @@
     "reservePrice": 45.0,
     "auctionDate": "2026-10-13",
     "detailUrl": "https://www.bankeauctions.com/immovable-land-krishna distt-239198",
-    "scrapedAt": "2026-09-27T11:01:56+00:00",
+    "scrapedAt": "2026-09-28T07:09:53+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -14058,7 +14089,7 @@
     "reservePrice": 12.0,
     "auctionDate": "2026-10-13",
     "detailUrl": "https://www.bankeauctions.com/immovable-land-bapatla-239199",
-    "scrapedAt": "2026-09-27T11:01:56+00:00",
+    "scrapedAt": "2026-09-28T07:09:53+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -14073,7 +14104,7 @@
     "reservePrice": 42.0,
     "auctionDate": "2026-10-13",
     "detailUrl": "https://www.bankeauctions.com/immovable-land-bapatla-239195",
-    "scrapedAt": "2026-09-27T11:01:56+00:00",
+    "scrapedAt": "2026-09-28T07:09:53+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -14088,7 +14119,7 @@
     "reservePrice": 11.0,
     "auctionDate": "2026-10-13",
     "detailUrl": "https://www.bankeauctions.com/immovable-land-bapatla-239197",
-    "scrapedAt": "2026-09-27T10:53:56+00:00",
+    "scrapedAt": "2026-09-28T07:09:53+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -14103,7 +14134,7 @@
     "reservePrice": 3.0,
     "auctionDate": "2026-10-13",
     "detailUrl": "https://www.bankeauctions.com/immovable-land-west godavari district-239183",
-    "scrapedAt": "2026-09-27T11:01:56+00:00",
+    "scrapedAt": "2026-09-28T07:09:53+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -14118,7 +14149,7 @@
     "reservePrice": 59.0,
     "auctionDate": "2026-10-13",
     "detailUrl": "https://www.bankeauctions.com/immovable-land-west godavari district-239180",
-    "scrapedAt": "2026-09-27T11:01:56+00:00",
+    "scrapedAt": "2026-09-28T07:09:53+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -14133,7 +14164,7 @@
     "reservePrice": 13800000.0,
     "auctionDate": "2026-10-13",
     "detailUrl": "https://bankauctions.in/auction/house-at-satyanarayanapuram-vasanthapuri-colony-ghmc-malkajgiri-circle-rr-district/",
-    "scrapedAt": "2026-09-27T11:02:05+00:00",
+    "scrapedAt": "2026-09-28T07:09:56+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -14148,7 +14179,7 @@
     "reservePrice": 2.0,
     "auctionDate": "2026-10-13",
     "detailUrl": "https://www.bankeauctions.com/immovable-commerical-indore-240467",
-    "scrapedAt": "2026-09-27T11:01:56+00:00",
+    "scrapedAt": "2026-09-28T07:09:53+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -14163,7 +14194,7 @@
     "reservePrice": 5852000.0,
     "auctionDate": "2026-10-13",
     "detailUrl": "https://bankauctions.in/auction/residential-house-at-urmila-nagar-gunadala-vijayawada-krishna-dist/",
-    "scrapedAt": "2026-09-27T11:01:56+00:00",
+    "scrapedAt": "2026-09-28T07:09:53+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -14178,7 +14209,7 @@
     "reservePrice": 5010000.0,
     "auctionDate": "2026-10-13",
     "detailUrl": "https://bankauctions.in/auction/house-at-venkaragiri-yousufguda-hyderabad/",
-    "scrapedAt": "2026-09-27T11:02:05+00:00",
+    "scrapedAt": "2026-09-28T07:09:56+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -14193,7 +14224,7 @@
     "reservePrice": 86.0,
     "auctionDate": "2026-10-13",
     "detailUrl": "https://auctionfocus.in/ViewAuctionDetail.aspx?AuctionDetailId=12042",
-    "scrapedAt": "2026-09-27T11:02:05+00:00",
+    "scrapedAt": "2026-09-28T07:09:56+00:00",
     "listingPortal": "auctionfocus"
   },
   {
@@ -14208,7 +14239,7 @@
     "reservePrice": 39.0,
     "auctionDate": "2026-10-13",
     "detailUrl": "https://auctionfocus.in/ViewAuctionDetail.aspx?AuctionDetailId=12023",
-    "scrapedAt": "2026-09-27T11:01:55+00:00",
+    "scrapedAt": "2026-09-28T07:09:53+00:00",
     "listingPortal": "auctionfocus"
   },
   {
@@ -14566,7 +14597,7 @@
     "reservePrice": 3000000.0,
     "auctionDate": "2026-10-14",
     "detailUrl": "https://bankauctions.in/auction/site-at-narsaraopet-chilakaluripet-boppudi/",
-    "scrapedAt": "2026-09-27T11:01:55+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -14581,7 +14612,7 @@
     "reservePrice": 10100000.0,
     "auctionDate": "2026-10-14",
     "detailUrl": "https://bankauctions.in/auction/house-at-ammanabrolu-naguluppalapadu-uppugudur-prakasam-dist/",
-    "scrapedAt": "2026-09-27T11:01:55+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -14596,7 +14627,7 @@
     "reservePrice": 7900000.0,
     "auctionDate": "2026-10-14",
     "detailUrl": "https://bankauctions.in/auction/plot-at-ongole-darsi-prakasam/",
-    "scrapedAt": "2026-09-27T11:01:55+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -14611,7 +14642,7 @@
     "reservePrice": 7200000.0,
     "auctionDate": "2026-10-14",
     "detailUrl": "https://bankauctions.in/auction/house-at-pulivendula-ammavarishala-street-kadapa/",
-    "scrapedAt": "2026-09-27T11:01:55+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -14626,7 +14657,7 @@
     "reservePrice": 5600000.0,
     "auctionDate": "2026-10-14",
     "detailUrl": "https://bankauctions.in/auction/residential-house-at-ayyagaripeta-sathupalli-khammam/",
-    "scrapedAt": "2026-09-27T11:02:05+00:00",
+    "scrapedAt": "2026-09-28T07:09:56+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -14641,7 +14672,7 @@
     "reservePrice": 6800000.0,
     "auctionDate": "2026-10-14",
     "detailUrl": "https://bankauctions.in/auction/house-at-kallur-kurnool/",
-    "scrapedAt": "2026-09-27T11:01:55+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -14656,7 +14687,7 @@
     "reservePrice": 10700000.0,
     "auctionDate": "2026-10-14",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-gudur-sullurpet-tada-nellore/",
-    "scrapedAt": "2026-09-27T11:01:55+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -14671,7 +14702,7 @@
     "reservePrice": 6800000.0,
     "auctionDate": "2026-10-14",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-chagallu-kovvuru-west-godavari-dist/",
-    "scrapedAt": "2026-09-27T11:01:55+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -14686,7 +14717,7 @@
     "reservePrice": 16000000.0,
     "auctionDate": "2026-10-14",
     "detailUrl": "https://bankauctions.in/auction/house-at-singarayakonda-mulaguntapadu-prakasam/",
-    "scrapedAt": "2026-09-27T11:01:55+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -14701,7 +14732,7 @@
     "reservePrice": 3500000.0,
     "auctionDate": "2026-10-14",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-regupalem-purushothapuram-yellamanchili-anakapalli/",
-    "scrapedAt": "2026-09-27T11:01:55+00:00",
+    "scrapedAt": "2026-09-28T07:09:53+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -14716,7 +14747,7 @@
     "reservePrice": 6800000.0,
     "auctionDate": "2026-10-14",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-bheemunipatnam-catholic-church-visakhapatnam/",
-    "scrapedAt": "2026-09-27T11:01:55+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -14731,7 +14762,7 @@
     "reservePrice": 8600000.0,
     "auctionDate": "2026-10-14",
     "detailUrl": "https://bankauctions.in/auction/site-at-karakavani-palem-gorapalli-pendurthi-visakhapatnam/",
-    "scrapedAt": "2026-09-27T11:01:55+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -14746,7 +14777,7 @@
     "reservePrice": 10800000.0,
     "auctionDate": "2026-10-14",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-duppituru-atchuthapuram-yellamanchili-anakapalli-visakhapatnam/",
-    "scrapedAt": "2026-09-27T11:01:55+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -14761,7 +14792,7 @@
     "reservePrice": 19.0,
     "auctionDate": "2026-10-14",
     "detailUrl": "https://www.bankeauctions.com/immovable-land-krishnagiri-240403",
-    "scrapedAt": "2026-09-27T11:01:55+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -14776,7 +14807,7 @@
     "reservePrice": 53.0,
     "auctionDate": "2026-10-14",
     "detailUrl": "https://www.bankeauctions.com/immovable-house-ranga reddy district-240405",
-    "scrapedAt": "2026-09-27T11:02:05+00:00",
+    "scrapedAt": "2026-09-28T07:09:56+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -14791,7 +14822,7 @@
     "reservePrice": 8.0,
     "auctionDate": "2026-10-14",
     "detailUrl": "https://www.bankeauctions.com/immovable-flat-surat-239514",
-    "scrapedAt": "2026-09-27T11:01:55+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankeauctions"
   },
   {
@@ -14806,7 +14837,7 @@
     "reservePrice": 59.0,
     "auctionDate": "2026-10-14",
     "detailUrl": "https://auctionfocus.in/ViewAuctionDetail.aspx?AuctionDetailId=12055",
-    "scrapedAt": "2026-09-27T11:02:05+00:00",
+    "scrapedAt": "2026-09-28T07:09:56+00:00",
     "listingPortal": "auctionfocus"
   },
   {
@@ -15462,7 +15493,7 @@
     "reservePrice": 387000.0,
     "auctionDate": "2026-10-15",
     "detailUrl": "https://bankauctions.in/auction/plant-and-machinery-at-marrur-nakrekal-nalgonda/",
-    "scrapedAt": "2026-09-27T11:02:05+00:00",
+    "scrapedAt": "2026-09-28T07:09:56+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -15477,7 +15508,7 @@
     "reservePrice": 18233000.0,
     "auctionDate": "2026-10-15",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-marrur-village-nakrekal-mandal-nalgonda-district/",
-    "scrapedAt": "2026-09-27T11:02:05+00:00",
+    "scrapedAt": "2026-09-28T07:09:56+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -15492,7 +15523,7 @@
     "reservePrice": 3818000.0,
     "auctionDate": "2026-10-15",
     "detailUrl": "https://bankauctions.in/auction/shop-at-arundelpet-sro-guntur/",
-    "scrapedAt": "2026-09-27T11:01:55+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -15507,7 +15538,7 @@
     "reservePrice": 8752000.0,
     "auctionDate": "2026-10-15",
     "detailUrl": "https://bankauctions.in/auction/shed-at-kondaveedu-sro-phirangipuram/",
-    "scrapedAt": "2026-09-27T10:53:55+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -15522,7 +15553,7 @@
     "reservePrice": 29980000.0,
     "auctionDate": "2026-10-15",
     "detailUrl": "https://bankauctions.in/auction/land-at-chowdavaram-sro-prathipadu-8/",
-    "scrapedAt": "2026-09-27T11:01:55+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -15537,7 +15568,7 @@
     "reservePrice": 26047000.0,
     "auctionDate": "2026-10-15",
     "detailUrl": "https://bankauctions.in/auction/land-at-pothuru-sro-nallapadu-5/",
-    "scrapedAt": "2026-09-27T11:01:53+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -15567,7 +15598,7 @@
     "reservePrice": 16114000.0,
     "auctionDate": "2026-10-15",
     "detailUrl": "https://bankauctions.in/auction/land-at-chowdavaram-sro-prathipadu-9/",
-    "scrapedAt": "2026-09-27T11:01:55+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -15597,7 +15628,7 @@
     "reservePrice": 9171000.0,
     "auctionDate": "2026-10-15",
     "detailUrl": "https://bankauctions.in/auction/land-at-agathavarappadu-sro-pedakakani-8/",
-    "scrapedAt": "2026-09-27T11:01:53+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -15612,7 +15643,7 @@
     "reservePrice": 12223100.0,
     "auctionDate": "2026-10-15",
     "detailUrl": "https://bankauctions.in/auction/land-at-arundelpet-sro-guntur/",
-    "scrapedAt": "2026-09-27T11:01:53+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -15627,7 +15658,7 @@
     "reservePrice": 24270000.0,
     "auctionDate": "2026-10-15",
     "detailUrl": "https://bankauctions.in/auction/land-at-sangadigunta-sro-guntur-9/",
-    "scrapedAt": "2026-09-27T11:01:53+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -15657,7 +15688,7 @@
     "reservePrice": 48994000.0,
     "auctionDate": "2026-10-15",
     "detailUrl": "https://bankauctions.in/auction/land-at-agathavarappadu-sro-pedakakani-7/",
-    "scrapedAt": "2026-09-27T10:53:55+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -15672,7 +15703,7 @@
     "reservePrice": 10326000.0,
     "auctionDate": "2026-10-15",
     "detailUrl": "https://bankauctions.in/auction/land-at-ankireddipalem-sro-nallpadu-4/",
-    "scrapedAt": "2026-09-27T11:01:53+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -15687,7 +15718,7 @@
     "reservePrice": 42332000.0,
     "auctionDate": "2026-10-15",
     "detailUrl": "https://bankauctions.in/auction/land-at-nadimpalem-sro-prathipadu-11/",
-    "scrapedAt": "2026-09-27T11:01:53+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -15732,7 +15763,7 @@
     "reservePrice": 63.0,
     "auctionDate": "2026-10-15",
     "detailUrl": "https://auctionfocus.in/ViewAuctionDetail.aspx?AuctionDetailId=12092",
-    "scrapedAt": "2026-09-27T11:02:05+00:00",
+    "scrapedAt": "2026-09-28T07:09:56+00:00",
     "listingPortal": "auctionfocus"
   },
   {
@@ -15747,7 +15778,7 @@
     "reservePrice": 68.0,
     "auctionDate": "2026-10-15",
     "detailUrl": "https://auctionfocus.in/ViewAuctionDetail.aspx?AuctionDetailId=12068",
-    "scrapedAt": "2026-09-27T11:02:05+00:00",
+    "scrapedAt": "2026-09-28T07:09:56+00:00",
     "listingPortal": "auctionfocus"
   },
   {
@@ -15979,7 +16010,7 @@
     "reservePrice": 16000000.0,
     "auctionDate": "2026-10-16",
     "detailUrl": "https://bankauctions.in/auction/house-at-dist-rajanna-sircilla-vemulawada-town-karimnagar/",
-    "scrapedAt": "2026-09-27T11:02:05+00:00",
+    "scrapedAt": "2026-09-28T07:09:56+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -15994,7 +16025,7 @@
     "reservePrice": 14000000.0,
     "auctionDate": "2026-10-16",
     "detailUrl": "https://bankauctions.in/auction/house-at-godamgadda-shanti-nagar-karimnagar/",
-    "scrapedAt": "2026-09-27T11:02:05+00:00",
+    "scrapedAt": "2026-09-28T07:09:56+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -16009,7 +16040,7 @@
     "reservePrice": 9200000.0,
     "auctionDate": "2026-10-16",
     "detailUrl": "https://bankauctions.in/auction/house-at-dist-rajanna-sircilla-vemulawada-town-karimnagar-2/",
-    "scrapedAt": "2026-09-27T11:02:05+00:00",
+    "scrapedAt": "2026-09-28T07:09:56+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -16024,7 +16055,7 @@
     "reservePrice": 12000000.0,
     "auctionDate": "2026-10-16",
     "detailUrl": "https://bankauctions.in/auction/house-at-sundar-talkies-road-ghandi-chowk-khammam/",
-    "scrapedAt": "2026-09-27T11:02:05+00:00",
+    "scrapedAt": "2026-09-28T07:09:56+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -16039,7 +16070,7 @@
     "reservePrice": 14000000.0,
     "auctionDate": "2026-10-16",
     "detailUrl": "https://bankauctions.in/auction/house-at-ghanapuram-station-village-warangal-district-jangaon/",
-    "scrapedAt": "2026-09-27T11:02:05+00:00",
+    "scrapedAt": "2026-09-28T07:09:56+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -16054,7 +16085,7 @@
     "reservePrice": 3000000.0,
     "auctionDate": "2026-10-16",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-machilipatnam-krishna-dist/",
-    "scrapedAt": "2026-09-27T11:01:53+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -16069,7 +16100,7 @@
     "reservePrice": 4740000.0,
     "auctionDate": "2026-10-16",
     "detailUrl": "https://bankauctions.in/auction/flat-at-pocharam-ghatkesar-medchal-malkajgiri/",
-    "scrapedAt": "2026-09-27T11:02:05+00:00",
+    "scrapedAt": "2026-09-28T07:09:56+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -16084,7 +16115,7 @@
     "reservePrice": 3500000.0,
     "auctionDate": "2026-10-16",
     "detailUrl": "https://bankauctions.in/auction/house-at-ramdev-guda-hyderabad-telangana/",
-    "scrapedAt": "2026-09-27T11:02:05+00:00",
+    "scrapedAt": "2026-09-28T07:09:56+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -16246,7 +16277,7 @@
     "reservePrice": 2200000.0,
     "auctionDate": "2026-10-22",
     "detailUrl": "https://bankauctions.in/auction/flat-at-krishna-vijayawada/",
-    "scrapedAt": "2026-09-27T11:01:53+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -16261,7 +16292,7 @@
     "reservePrice": 1430000.0,
     "auctionDate": "2026-10-22",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-prakasam-districtammanabrolu-s-d-ongole-mandal-chejarla-village/",
-    "scrapedAt": "2026-09-27T11:01:53+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -16276,7 +16307,7 @@
     "reservePrice": 1890000.0,
     "auctionDate": "2026-10-22",
     "detailUrl": "https://bankauctions.in/auction/plot-at-vardhavelli-village-boinapalli-mandal-rajanna-sircilla-district-vemulawada/",
-    "scrapedAt": "2026-09-27T11:02:05+00:00",
+    "scrapedAt": "2026-09-28T07:09:56+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -16522,7 +16553,7 @@
     "reservePrice": 1798000.0,
     "auctionDate": "2026-10-23",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-kotnur-gramapolam-muddireddypalli-hindupur-sri-sathya-sai-district/",
-    "scrapedAt": "2026-09-27T11:01:53+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -16537,7 +16568,7 @@
     "reservePrice": 11400000.0,
     "auctionDate": "2026-10-23",
     "detailUrl": "https://bankauctions.in/auction/house-at-gosha-mahal-hyderabad-telangana/",
-    "scrapedAt": "2026-09-27T11:02:04+00:00",
+    "scrapedAt": "2026-09-28T07:09:55+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -16567,7 +16598,7 @@
     "reservePrice": 3800000.0,
     "auctionDate": "2026-10-23",
     "detailUrl": "https://bankauctions.in/auction/house-at-mancherial/",
-    "scrapedAt": "2026-09-27T11:02:05+00:00",
+    "scrapedAt": "2026-09-28T07:09:55+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -16582,7 +16613,7 @@
     "reservePrice": 2500000.0,
     "auctionDate": "2026-10-23",
     "detailUrl": "https://bankauctions.in/auction/house-at-naspur-mancherial-adilabad/",
-    "scrapedAt": "2026-09-27T11:02:04+00:00",
+    "scrapedAt": "2026-09-28T07:09:55+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -16597,7 +16628,7 @@
     "reservePrice": 3000000.0,
     "auctionDate": "2026-10-23",
     "detailUrl": "https://bankauctions.in/auction/house-at-awadam-shivar-nennel-mancherial/",
-    "scrapedAt": "2026-09-27T11:02:04+00:00",
+    "scrapedAt": "2026-09-28T07:09:55+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -16612,7 +16643,7 @@
     "reservePrice": 2660000.0,
     "auctionDate": "2026-10-23",
     "detailUrl": "https://bankauctions.in/auction/residential-houese-at-peddakondepaka-shayampet-mandal-hanamkonda-district-jogampalli/",
-    "scrapedAt": "2026-09-27T11:02:04+00:00",
+    "scrapedAt": "2026-09-28T07:09:55+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -16627,7 +16658,7 @@
     "reservePrice": 2400000.0,
     "auctionDate": "2026-10-23",
     "detailUrl": "https://bankauctions.in/auction/house-at-narsampet-district-warangal-banjipet/",
-    "scrapedAt": "2026-09-27T11:02:04+00:00",
+    "scrapedAt": "2026-09-28T07:09:56+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -16642,7 +16673,7 @@
     "reservePrice": 1100000.0,
     "auctionDate": "2026-10-23",
     "detailUrl": "https://bankauctions.in/auction/land-at-tirupathi-district-sullurpeta/",
-    "scrapedAt": "2026-09-27T11:01:53+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -16671,7 +16702,7 @@
     "reservePrice": 5771500.0,
     "auctionDate": "2026-10-24",
     "detailUrl": "https://bankauctions.in/auction/flat-at-osmanpura-azampura-hyderabad/",
-    "scrapedAt": "2026-09-27T11:02:04+00:00",
+    "scrapedAt": "2026-09-28T07:09:55+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -16793,6 +16824,36 @@
     "detailUrl": "https://baanknet.com/property-detail/298678/881b915d657846801d6e6313d813d3518d488ccb",
     "scrapedAt": "2026-09-27T11:02:10+00:00",
     "listingPortal": "BaankNet"
+  },
+  {
+    "id": "eauctiondekho:karur-vysya-bank-auctions-for-residential-property-in-eluru-andhra-pradesh-wp31m9cea5",
+    "source": "eauctiondekho",
+    "auctionId": "karur-vysya-bank-auctions-for-residential-property-in-eluru-andhra-pradesh-wp31m9cea5",
+    "bankName": "Karur Vysya Bank",
+    "propertyType": "Residential",
+    "city": "Eluru",
+    "district": "Eluru",
+    "state": "Andhra Pradesh",
+    "reservePrice": 11800000.0,
+    "auctionDate": "2026-10-26",
+    "detailUrl": "https://bankauctions.in/auction/land-at-unguturu-village-west-godavari-district-earlier-eluru-district/",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
+    "listingPortal": "bankauctions"
+  },
+  {
+    "id": "eauctiondekho:karur-vysya-bank-auctions-for-residential-property-in-eluru-andhra-pradesh-xhron0dwfu",
+    "source": "eauctiondekho",
+    "auctionId": "karur-vysya-bank-auctions-for-residential-property-in-eluru-andhra-pradesh-xhron0dwfu",
+    "bankName": "Karur Vysya Bank",
+    "propertyType": "Residential",
+    "city": "Eluru",
+    "district": "Eluru",
+    "state": "Andhra Pradesh",
+    "reservePrice": 13300000.0,
+    "auctionDate": "2026-10-26",
+    "detailUrl": "https://bankauctions.in/auction/land-at-unguturu-village-unguturu-mandal-west-godavari-district/",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
+    "listingPortal": "bankauctions"
   },
   {
     "id": "baanknet:PUNBKUA54804369",
@@ -17122,7 +17183,7 @@
     "reservePrice": 12100000.0,
     "auctionDate": "2026-10-27",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-powerpet-eluru-sub-registrar-west-godavari-district/",
-    "scrapedAt": "2026-09-27T10:53:53+00:00",
+    "scrapedAt": "2026-09-28T07:09:51+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -17137,7 +17198,7 @@
     "reservePrice": 3800000.0,
     "auctionDate": "2026-10-27",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-guntur-district-chebrole-sub-district-manchala-grampanchayat/",
-    "scrapedAt": "2026-09-27T11:01:52+00:00",
+    "scrapedAt": "2026-09-28T07:09:51+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -17152,7 +17213,7 @@
     "reservePrice": 2320000.0,
     "auctionDate": "2026-10-27",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-east-godavari-district-pedapudi-mandal-bikkavolu-sro/",
-    "scrapedAt": "2026-09-27T11:01:53+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -17167,7 +17228,7 @@
     "reservePrice": 3590000.0,
     "auctionDate": "2026-10-27",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-prakasam-district-ongole-sub-registrar-ongole-municipal/",
-    "scrapedAt": "2026-09-27T11:01:52+00:00",
+    "scrapedAt": "2026-09-28T07:09:51+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -17182,7 +17243,7 @@
     "reservePrice": 1470000.0,
     "auctionDate": "2026-10-27",
     "detailUrl": "https://bankauctions.in/auction/house-at-guntur-district-narasaraopet-r-d-vinukonda-sanampadu-village/",
-    "scrapedAt": "2026-09-27T11:01:52+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -17197,7 +17258,7 @@
     "reservePrice": 2310000.0,
     "auctionDate": "2026-10-27",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-prakasam-district-ongole-tripuranthakam-mandal-yerrgondapalem/",
-    "scrapedAt": "2026-09-27T10:48:12+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -17212,7 +17273,7 @@
     "reservePrice": 4100000.0,
     "auctionDate": "2026-10-27",
     "detailUrl": "https://bankauctions.in/auction/house-at-prakasam-district-chirala-sub-districct-chirala-muncipal-chirala/",
-    "scrapedAt": "2026-09-27T10:48:12+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -17242,7 +17303,7 @@
     "reservePrice": 9600000.0,
     "auctionDate": "2026-10-27",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-prakasam-district-markapuram-registration-district-khambam/",
-    "scrapedAt": "2026-09-27T10:53:53+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -17272,7 +17333,7 @@
     "reservePrice": 3250000.0,
     "auctionDate": "2026-10-27",
     "detailUrl": "https://bankauctions.in/auction/house-at-bodanampadu-markapuram-darsi-vijayawada/",
-    "scrapedAt": "2026-09-27T11:01:52+00:00",
+    "scrapedAt": "2026-09-28T07:09:51+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -17287,7 +17348,7 @@
     "reservePrice": 2150000.0,
     "auctionDate": "2026-10-27",
     "detailUrl": "https://bankauctions.in/auction/house-at-cumbum-prakasam-majara-darga/",
-    "scrapedAt": "2026-09-27T11:01:53+00:00",
+    "scrapedAt": "2026-09-28T07:09:51+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -17302,7 +17363,7 @@
     "reservePrice": 2330000.0,
     "auctionDate": "2026-10-27",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-prakasam-ongole-giddalur-komarolu-bavapuram/",
-    "scrapedAt": "2026-09-27T11:01:53+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -17332,7 +17393,7 @@
     "reservePrice": 2720000.0,
     "auctionDate": "2026-10-27",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-koppaka-village-within-the-limits-of-greater-visakhapatnam/",
-    "scrapedAt": "2026-09-27T11:01:53+00:00",
+    "scrapedAt": "2026-09-28T07:09:52+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -17347,7 +17408,7 @@
     "reservePrice": 1420000.0,
     "auctionDate": "2026-10-27",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-west-godavari-district-undrajavaram-mandal-tanuku-sub-regitry-vadluru/",
-    "scrapedAt": "2026-09-27T11:01:53+00:00",
+    "scrapedAt": "2026-09-28T07:09:51+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -17362,7 +17423,7 @@
     "reservePrice": 6000000.0,
     "auctionDate": "2026-10-27",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-rangashaipet-warangal-warangaltelangana/",
-    "scrapedAt": "2026-09-27T11:02:04+00:00",
+    "scrapedAt": "2026-09-28T07:09:55+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -17526,7 +17587,7 @@
     "reservePrice": 21028000.0,
     "auctionDate": "2026-10-28",
     "detailUrl": "https://bankauctions.in/auction/house-at-a-p-housing-board-hyderabad-warangal-jangaon/",
-    "scrapedAt": "2026-09-27T11:02:04+00:00",
+    "scrapedAt": "2026-09-28T07:09:55+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -17611,7 +17672,7 @@
     "reservePrice": 28900000.0,
     "auctionDate": "2026-10-29",
     "detailUrl": "https://bankauctions.in/auction/house-at-maredpally-paigah-ishaq-colony-aoc-gatesecunderabad/",
-    "scrapedAt": "2026-09-27T11:02:04+00:00",
+    "scrapedAt": "2026-09-28T07:09:55+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -17626,7 +17687,7 @@
     "reservePrice": 7600000.0,
     "auctionDate": "2026-10-29",
     "detailUrl": "https://bankauctions.in/auction/house-at-manikeshwari-nagar-ou-campus-ghmc-secunderabad/",
-    "scrapedAt": "2026-09-27T11:02:04+00:00",
+    "scrapedAt": "2026-09-28T07:09:55+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -17641,7 +17702,7 @@
     "reservePrice": 3500000.0,
     "auctionDate": "2026-10-29",
     "detailUrl": "https://bankauctions.in/auction/house-at-gollagudem-velugumatla-khammam/",
-    "scrapedAt": "2026-09-27T11:02:04+00:00",
+    "scrapedAt": "2026-09-28T07:09:55+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -17656,7 +17717,7 @@
     "reservePrice": 8000000.0,
     "auctionDate": "2026-10-29",
     "detailUrl": "https://bankauctions.in/auction/site-at-valivarthipadu-gudivada-krishna-dist/",
-    "scrapedAt": "2026-09-27T11:01:52+00:00",
+    "scrapedAt": "2026-09-28T07:09:51+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -17671,7 +17732,7 @@
     "reservePrice": 9000000.0,
     "auctionDate": "2026-10-29",
     "detailUrl": "https://bankauctions.in/auction/site-at-gudivada-krishna-dist/",
-    "scrapedAt": "2026-09-27T11:01:52+00:00",
+    "scrapedAt": "2026-09-28T07:09:51+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -17786,7 +17847,7 @@
     "reservePrice": 34974000.0,
     "auctionDate": "2026-11-02",
     "detailUrl": "https://bankauctions.in/auction/house-at-uppal-ragavendranagar-residential-malkajgiri-k-v-ranga-reddy/",
-    "scrapedAt": "2026-09-27T11:02:04+00:00",
+    "scrapedAt": "2026-09-28T07:09:55+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -17801,7 +17862,7 @@
     "reservePrice": 74177000.0,
     "auctionDate": "2026-11-02",
     "detailUrl": "https://bankauctions.in/auction/plot-at-raidurg-serlingampally-hyderabad/",
-    "scrapedAt": "2026-09-27T11:02:04+00:00",
+    "scrapedAt": "2026-09-28T07:09:55+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -17816,7 +17877,7 @@
     "reservePrice": 17197000.0,
     "auctionDate": "2026-11-02",
     "detailUrl": "https://bankauctions.in/auction/flat-at-sreenidhi-grand-guttalabegumpet-serlingampally-hyderabad/",
-    "scrapedAt": "2026-09-27T11:02:04+00:00",
+    "scrapedAt": "2026-09-28T07:09:55+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -17831,7 +17892,7 @@
     "reservePrice": 3501000.0,
     "auctionDate": "2026-11-02",
     "detailUrl": "https://bankauctions.in/auction/plot-at-ameenpur-patancheru-sangareddy-hyderabad/",
-    "scrapedAt": "2026-09-27T11:02:04+00:00",
+    "scrapedAt": "2026-09-28T07:09:55+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -17846,7 +17907,7 @@
     "reservePrice": 4122000.0,
     "auctionDate": "2026-11-02",
     "detailUrl": "https://bankauctions.in/auction/flat-at-chinna-avutapalli-krishna-andhra-pradesh/",
-    "scrapedAt": "2026-09-27T11:01:52+00:00",
+    "scrapedAt": "2026-09-28T07:09:51+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -18036,7 +18097,7 @@
     "reservePrice": 2588000.0,
     "auctionDate": "2026-11-03",
     "detailUrl": "https://bankauctions.in/auction/machinery-at-shed-no-e-6-industrial-estate-kadapa/",
-    "scrapedAt": "2026-09-27T11:01:52+00:00",
+    "scrapedAt": "2026-09-28T07:09:51+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -18051,7 +18112,7 @@
     "reservePrice": 1054000.0,
     "auctionDate": "2026-11-03",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-pakkerareddygari-palli-galivedu-m-annamayya-district-2/",
-    "scrapedAt": "2026-09-27T11:01:52+00:00",
+    "scrapedAt": "2026-09-28T07:09:51+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -18066,7 +18127,7 @@
     "reservePrice": 1290000.0,
     "auctionDate": "2026-11-03",
     "detailUrl": "https://bankauctions.in/auction/machinery-at-near-mukunda-ashram-vontimitta-vm-ysr-kadapa-district/",
-    "scrapedAt": "2026-09-27T11:01:52+00:00",
+    "scrapedAt": "2026-09-28T07:09:51+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -18081,7 +18142,7 @@
     "reservePrice": 3928000.0,
     "auctionDate": "2026-11-03",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-vontimitta-vm-ysr-kadapa-district/",
-    "scrapedAt": "2026-09-27T11:01:52+00:00",
+    "scrapedAt": "2026-09-28T07:09:51+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -18096,7 +18157,7 @@
     "reservePrice": 7865000.0,
     "auctionDate": "2026-11-03",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-pakkerareddygari-palli-galivedu-m-annamayya-district/",
-    "scrapedAt": "2026-09-27T11:01:52+00:00",
+    "scrapedAt": "2026-09-28T07:09:51+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -18195,7 +18256,7 @@
     "reservePrice": 7615000.0,
     "auctionDate": "2026-11-06",
     "detailUrl": "https://bankauctions.in/auction/commercial-property-at-visakhapatnam/",
-    "scrapedAt": "2026-09-27T11:01:52+00:00",
+    "scrapedAt": "2026-09-28T07:09:51+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -18210,7 +18271,7 @@
     "reservePrice": 28240000.0,
     "auctionDate": "2026-11-06",
     "detailUrl": "https://bankauctions.in/auction/plant-and-machinery/",
-    "scrapedAt": "2026-09-27T11:01:52+00:00",
+    "scrapedAt": "2026-09-28T07:09:51+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -18225,7 +18286,7 @@
     "reservePrice": 238000.0,
     "auctionDate": "2026-11-06",
     "detailUrl": "https://bankauctions.in/auction/plant-and-machinery-at-visakhapatnam/",
-    "scrapedAt": "2026-09-27T11:01:52+00:00",
+    "scrapedAt": "2026-09-28T07:09:51+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -18240,7 +18301,7 @@
     "reservePrice": 45040000.0,
     "auctionDate": "2026-11-06",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-ongole-vijayawada-2/",
-    "scrapedAt": "2026-09-27T11:01:52+00:00",
+    "scrapedAt": "2026-09-28T07:09:51+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -18255,7 +18316,7 @@
     "reservePrice": 3361000.0,
     "auctionDate": "2026-11-06",
     "detailUrl": "https://bankauctions.in/auction/flat-at-gayathri-nagar-2nd-line-inner-ring-road-guntur-gorantla-guntur/",
-    "scrapedAt": "2026-09-27T11:01:52+00:00",
+    "scrapedAt": "2026-09-28T07:09:51+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -18270,7 +18331,7 @@
     "reservePrice": 1399000.0,
     "auctionDate": "2026-11-06",
     "detailUrl": "https://bankauctions.in/auction/house-at-housing-board-colony-keerthinagar-gorrekunta-village/",
-    "scrapedAt": "2026-09-27T11:02:04+00:00",
+    "scrapedAt": "2026-09-28T07:09:55+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -18313,7 +18374,7 @@
     "reservePrice": 2050000.0,
     "auctionDate": "2026-11-09",
     "detailUrl": "https://bankauctions.in/auction/house-at-kanidela-village-konidela-fram-panchayathi-nandikotkur-kurnool-district/",
-    "scrapedAt": "2026-09-27T11:01:52+00:00",
+    "scrapedAt": "2026-09-28T07:09:51+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -18328,7 +18389,7 @@
     "reservePrice": 2997000.0,
     "auctionDate": "2026-11-09",
     "detailUrl": "https://bankauctions.in/auction/plot-at-temple-town-rampally-dayara-orrgc-keesara-orrgc-hyderabad/",
-    "scrapedAt": "2026-09-27T11:02:04+00:00",
+    "scrapedAt": "2026-09-28T07:09:55+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -18357,7 +18418,7 @@
     "reservePrice": 10207800.0,
     "auctionDate": "2026-11-18",
     "detailUrl": "https://bankauctions.in/auction/commercial-property-at-st-johns-road-secunderabad-5/",
-    "scrapedAt": "2026-09-27T11:02:04+00:00",
+    "scrapedAt": "2026-09-28T07:09:55+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -18442,7 +18503,7 @@
     "reservePrice": 5500000.0,
     "auctionDate": "2026-12-01",
     "detailUrl": "https://bankauctions.in/auction/flat-at-medchal-village-under-medchal-municipality-medchal/",
-    "scrapedAt": "2026-09-27T11:02:04+00:00",
+    "scrapedAt": "2026-09-28T07:09:55+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -18457,7 +18518,7 @@
     "reservePrice": 4800000.0,
     "auctionDate": "2026-12-01",
     "detailUrl": "https://bankauctions.in/auction/flat-at-brahmanwadi-begumpet-secunderabad/",
-    "scrapedAt": "2026-09-27T11:02:04+00:00",
+    "scrapedAt": "2026-09-28T07:09:55+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -18472,7 +18533,7 @@
     "reservePrice": 2425600.0,
     "auctionDate": "2026-12-01",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-baranpally-village-g-p-mandal-dhoolmitta-siddipet-district/",
-    "scrapedAt": "2026-09-27T11:02:04+00:00",
+    "scrapedAt": "2026-09-28T07:09:55+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -18487,7 +18548,7 @@
     "reservePrice": 1891880.0,
     "auctionDate": "2026-12-01",
     "detailUrl": "https://bankauctions.in/auction/land-and-building-at-village-allipur-g-p-mailaram-mandal-chinnakodur-district-siddipet/",
-    "scrapedAt": "2026-09-27T11:02:04+00:00",
+    "scrapedAt": "2026-09-28T07:09:55+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -18502,7 +18563,7 @@
     "reservePrice": 3038800.0,
     "auctionDate": "2026-12-01",
     "detailUrl": "https://bankauctions.in/auction/house-at-angadipeta-village-municipal-limits-of-chandur-mandal-nalgonda-dist/",
-    "scrapedAt": "2026-09-27T11:02:04+00:00",
+    "scrapedAt": "2026-09-28T07:09:55+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -18545,7 +18606,7 @@
     "reservePrice": 11000000.0,
     "auctionDate": "2026-12-03",
     "detailUrl": "https://bankauctions.in/auction/flat-at-sanathnagar-hyderabad/",
-    "scrapedAt": "2026-09-27T11:02:04+00:00",
+    "scrapedAt": "2026-09-28T07:09:55+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -18560,7 +18621,7 @@
     "reservePrice": 2595000.0,
     "auctionDate": "2026-12-03",
     "detailUrl": "https://bankauctions.in/auction/flat-at-ambarapuram-vijayawada-krishna/",
-    "scrapedAt": "2026-09-27T11:01:52+00:00",
+    "scrapedAt": "2026-09-28T07:09:51+00:00",
     "listingPortal": "bankauctions"
   },
   {
@@ -18589,7 +18650,7 @@
     "reservePrice": 2552000.0,
     "auctionDate": "2026-12-05",
     "detailUrl": "https://bankauctions.in/auction/plot-at-satyamji-nagar-valivetipadu-nellore-nellore-andhra-pradesh/",
-    "scrapedAt": "2026-09-27T11:01:52+00:00",
+    "scrapedAt": "2026-09-28T07:09:51+00:00",
     "listingPortal": "bankauctions"
   }
 ]
