@@ -30,6 +30,10 @@ from typing import Any
 
 import requests
 
+from requests.adapters import HTTPAdapter
+
+from urllib3.util.retry import Retry
+
 
 
 SCRAPER_DIR = Path(__file__).resolve().parent
@@ -102,6 +106,8 @@ BAANKNET_FILTER_URL = "https://baanknet.com/api/v1/property/detail/property-filt
 
 BAANKNET_STATES_URL = "https://baanknet.com/api/v1/common/states"
 
+BAANKNET_STATE_IDS_FALLBACK = {"Andhra Pradesh": 2, "Telangana": 32}
+
 
 
 _EAUCTIONSINDIA_PROPERTY = re.compile(
@@ -114,13 +120,53 @@ _EAUCTIONSINDIA_PROPERTY = re.compile(
 
 
 
-def _session() -> requests.Session:
+def _session(*, baanknet: bool = False) -> requests.Session:
+
+    retry = Retry(
+        total=5,
+        connect=5,
+        read=5,
+        backoff_factor=1.5,
+        status_forcelist=(429, 500, 502, 503, 504),
+        allowed_methods=frozenset({"GET", "POST", "HEAD"}),
+        raise_on_status=False,
+    )
+    adapter = HTTPAdapter(max_retries=retry)
 
     s = requests.Session()
+    s.mount("https://", adapter)
+    s.mount("http://", adapter)
 
-    s.headers.update(HEADERS)
+    headers = dict(HEADERS)
+    if baanknet:
+        headers.update(
+            {
+                "Referer": "https://baanknet.com/",
+                "Origin": "https://baanknet.com",
+                "Accept-Language": "en-IN,en;q=0.9",
+            }
+        )
+    s.headers.update(headers)
+
+    if baanknet:
+        try:
+            s.get("https://baanknet.com/", timeout=30)
+        except requests.RequestException as exc:
+            logger.debug("BaankNet homepage warm-up failed: %s", exc)
 
     return s
+
+
+
+
+
+def _http_error(resp: requests.Response, context: str) -> None:
+    if resp.ok:
+        return
+    raise requests.HTTPError(
+        f"{context}: {resp.status_code} {resp.reason} for {resp.url}",
+        response=resp,
+    )
 
 
 
@@ -232,7 +278,7 @@ def scrape_eauctiondekho(
 
             resp = session.get(EAUCTIONDEKHO_API, params=params, timeout=60)
 
-            resp.raise_for_status()
+            _http_error(resp, "eAuctionDekho API")
 
             payload = resp.json()
 
@@ -390,7 +436,25 @@ def _baanknet_state_ids(session: requests.Session) -> dict[str, int]:
 
     )
 
-    resp.raise_for_status()
+    if not resp.ok:
+
+        logger.warning(
+
+            "BaankNet state list HTTP %s; using AP/Telangana fallback IDs",
+
+            resp.status_code,
+
+        )
+
+        return {
+
+            name: BAANKNET_STATE_IDS_FALLBACK[name]
+
+            for name in TARGET_STATES
+
+            if name in BAANKNET_STATE_IDS_FALLBACK
+
+        }
 
     mapping: dict[str, int] = {}
 
@@ -401,6 +465,18 @@ def _baanknet_state_ids(session: requests.Session) -> dict[str, int]:
         if name in TARGET_STATES:
 
             mapping[name] = int(row["id"])
+
+    if not mapping:
+
+        return {
+
+            name: BAANKNET_STATE_IDS_FALLBACK[name]
+
+            for name in TARGET_STATES
+
+            if name in BAANKNET_STATE_IDS_FALLBACK
+
+        }
 
     return mapping
 
@@ -528,21 +604,13 @@ def scrape_baanknet(
 
 
 
-    session = _session()
+    session = _session(baanknet=True)
 
     session.headers["Content-Type"] = "application/json"
 
 
 
-    try:
-
-        state_ids = _baanknet_state_ids(session)
-
-    except requests.RequestException as exc:
-
-        logger.warning("BaankNet state list failed: %s", exc)
-
-        return []
+    state_ids = _baanknet_state_ids(session)
 
 
 
@@ -580,7 +648,7 @@ def scrape_baanknet(
 
                 resp = session.post(BAANKNET_FILTER_URL, json=body, timeout=90)
 
-                resp.raise_for_status()
+                _http_error(resp, f"BaankNet filter {state} page {page}")
 
             except requests.RequestException as exc:
 
@@ -724,7 +792,25 @@ def main() -> int:
 
     logger.info("Wrote %s records to %s", len(merged), DATA_FILE)
 
-    return 0 if all_results else 1
+    if merged:
+
+        if not all_results:
+
+            logger.warning(
+
+                "Fetch returned no new rows (upstream error or empty); "
+
+                "kept %s upcoming records from existing data",
+
+                len(merged),
+
+            )
+
+        return 0
+
+    logger.error("No auction records after merge; check upstream APIs")
+
+    return 1
 
 
 
