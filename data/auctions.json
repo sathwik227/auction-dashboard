@@ -1,35 +1,5 @@
 [
   {
-    "id": "baanknet:CNRB326070946",
-    "source": "baanknet",
-    "auctionId": "CNRB326070946",
-    "bankName": "Canara Bank",
-    "propertyType": "Residential",
-    "city": "Prattipadu",
-    "district": "Kakinada",
-    "state": "Andhra Pradesh",
-    "reservePrice": 14484000.0,
-    "auctionDate": "2026-11-23",
-    "detailUrl": "https://baanknet.com/property-detail/300467/41c6069d9e35cda12314505a4a9dd99c6258d5a1",
-    "scrapedAt": "2026-11-05T08:03:21+00:00",
-    "listingPortal": "BaankNet"
-  },
-  {
-    "id": "eauctiondekho:grihum-housing-finance-limited-auctions-for-residential-property-in-krishna-andhra-pradesh-kk9y2719xb",
-    "source": "eauctiondekho",
-    "auctionId": "grihum-housing-finance-limited-auctions-for-residential-property-in-krishna-andhra-pradesh-kk9y2719xb",
-    "bankName": "GRIHUM HOUSING FINANCE LIMITED",
-    "propertyType": "Residential",
-    "city": "Krishna",
-    "district": "Krishna",
-    "state": "Andhra Pradesh",
-    "reservePrice": 13.0,
-    "auctionDate": "2026-11-23",
-    "detailUrl": "https://www.bankeauctions.com/immovable-residential-junagadh-244326",
-    "scrapedAt": "2026-11-12T08:33:28+00:00",
-    "listingPortal": "bankeauctions"
-  },
-  {
     "id": "eauctiondekho:cholamandalam-investment-and-finance-company-limited-auctions-for-residential-property-in-guntur-andhra-pradesh-1jyluh8d0z",
     "source": "eauctiondekho",
     "auctionId": "cholamandalam-investment-and-finance-company-limited-auctions-for-residential-property-in-guntur-andhra-pradesh-1jyluh8d0z",
